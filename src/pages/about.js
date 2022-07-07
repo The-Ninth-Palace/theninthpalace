@@ -10,7 +10,6 @@ import GuaranteeList from '../components/sections/about/guaranteelist';
 import Video from '../components/sections/about/video';
 import Teams from '../components/sections/about/team';
 import GoToTop from '../components/gototop';
-import { Helmet } from 'react-helmet';
 import Script from '../components/utils/customscript';
 
 function About() {
@@ -71,14 +70,8 @@ function About() {
       {/* <!-- !Totop --> */}
       {/* <!-- Go to top when load --> */}
       <GoToTop />
+      <Script  />
       </div>
-        {/* <Helmet>
-        <script src="./js/init.js?ver=1.1" type="text/javascript" />
-        <script src="./js/jquery.js" type="text/javascript" />
-        <script src="./js/plugins.js" type="text/javascript" />
-        </Helmet> */}
-        <Script  />
-
     </div>
     </>
     

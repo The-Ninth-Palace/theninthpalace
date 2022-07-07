@@ -63,7 +63,7 @@ function Home() {
 		{/* <!-- !Totop --> */}
 		{/* <!-- Go to top when load --> */}
 		<GoToTop />
-		{/* <Script  /> */}
+		<Script  />
 	</div>
 	{/* <!-- !Main --> */}
     </div>
