@@ -42,19 +42,24 @@ function NormalContent() {
               {/* <!-- Single Description --> */}
               <div class="single_desc">
                 <p class="fn_desc">
-                    Please, understand that the following is subject to change. This document is meant to lead the Resistance, but it is not a definitive 
-                    list of what we must do to flourish. The timing and order of these items can change as we scale. We've created this Securus Protocol with three
-                    primary goals in mind.
+                Please, understand that the following is subject to change. This document is meant to lead The Resistance, 
+                but it is not a definitive list of what we must do to flourish. The timing and order of these items can change as we scale. 
+                We've created this Roadmap with three primarygoals in mind.
                     <ul>
-                        <li>Launch The Ninth Palace for PC; Campaign & PvP Modes.</li>
-                        <li>Launch Incubator for Web3 game developers/companies.</li>
-                        <li>Massive Marketing Campaign - Global, Animated, and Year-Round.</li>
+                        <li>Raise the bar for NFT projects as businesses. Creating value has to be the future; great art is healthy baseline. 
+                          This is the standard we have set for ourselves, and hopefully, it translates into a higher level of commitment from the 
+                          projects that are building the future.</li>
+                        <li>Build AAA-quality Web3, P2E video game. All blockchain games don't have to be pixelated cartoons or card games. 
+                          They should be fun, engaging, challenging, and sustainable. We have worked tirelessly to make this a reality by 
+                          building what we think is fun.</li>
+                        <li>Bridge gaming and Web3 in a tangible way and change the way gamers earn in eSports. There is a point on the curve of 
+                          p2e sustainability that we identified as the sweet spot. This involves building a business around the game, and ensuring 
+                          each step of the process is bringing us closer to our fulfilling our goals.</li>
                     </ul>
-                    Having said that, we are building in a fluid environment, and that means we need to be flexible and able to adjust in order to 
-                    survive. This document was created to help us - the core team - focus, and to give holders an idea of what we intend to do. The 
-                    Establishment told us that what we were doing was inconceivable. Then, they told us that what we’ve shown them was going to fail 
-                    when “inconceivable” was no longer applicable. Now, they’re telling us they’ll never let us use their marketplace to release the 
-                    game build. We will continue to hurdle.
+                    Having said that, we are building in a fluid environment, and that means we need to be flexible and able to adjust in order to survive. 
+                    This document was created to help us - the core team - focus, and to give holders an idea of what we intend to do. We're excited for the future 
+                    and welcome suggestions surrounding gameplay, onboarding, The Safe House marketplace, or anything else the community thinks is missing from the 
+                    P2E environment. 
                 </p>
               </div>
               {/* <!-- !Single Description --> */}
