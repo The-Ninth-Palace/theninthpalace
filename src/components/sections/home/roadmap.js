@@ -26,7 +26,7 @@ function HomeRoadmap() {
                       <div class="neoh_fn_gallery_1_2">
                          <div class="gallery_in">                        
                            <div class="item row2">
-                            <img src="img/landing/roadmap1.png" alt="" />
+                            <img src="img/landing/roadmap1.jpg" alt="" />
                           </div> 
                           {/*<div class="item">
                             <img src="img/thumbs/02.png" alt="" />

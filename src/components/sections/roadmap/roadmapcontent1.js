@@ -16,7 +16,7 @@ function RoadmapPage() {
                       <div class="neoh_fn_gallery_1_2">
                         <div class="gallery_in">
                           <div class="item row2">
-                            <img src="img/landing/roadmap1.png" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+                            <img src="img/landing/roadmap1.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
                           </div>
                           {/* <div class="item">
                             <img src="img/landing/roadmap1b.png" alt="" />

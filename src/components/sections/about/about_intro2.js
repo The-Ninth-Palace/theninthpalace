@@ -28,6 +28,21 @@ function AboutIntro2() {
                     in a way most AAA-Tier games can not. Owning an Inception Collection NFT will also be your "token" of ownership for the 
                     multiplayer servers. In a perfect world, they're completely decentralized and run by the community. 
                     </p>
+                    {/* <p>
+                    The Avatar mint will determine what base character traits players have going forward. 
+                    Collectors will have the chance to move up or down on the secondary market before the game/s are released, 
+                    before the Auxiliary Airdrop, or before the game mechanics for specific NFT metadata are shared via SubStack.
+                    </p>
+                    <p>
+                    The illustrations for the collection are hand drawn, unique, and game specific. There are 8 versions of Avatar; 
+                    200 trait variations for the men and 197 trait variations for the women. Asian Avatars, both men and women, 
+                    have one extra variation on the same trait. There are 10 Avatars that are 1-of-1s; another 10 will be reserved 
+                    for giveaways, scholarships, and marketing.
+                    </p>
+                    <p>
+                    Hidden meaning is built into every aspect of the project. Unwinding it will take some time and it’s important to stop, 
+                    look, and factor in every detail. Start here… 4111. 1669. 29. 983. 10007.
+                    </p> */}
                   </div>
 
                   <div class="buttons">

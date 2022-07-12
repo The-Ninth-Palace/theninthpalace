@@ -16,14 +16,23 @@ function HomeAbout() {
 					<div class="content_item">
 						
 						<div class="neoh_fn_title" data-align="left">
-							<h3 class="fn_title">Inception Collection</h3>
+							<h3 class="fn_title">Resistance Collection</h3>
 							<div class="line"><span></span></div>
 						</div>
 						
 						<div class="desc">
-							<p>The quality of the project is paramount to us. We’ve been planning, writing, and designing for nearly a year. </p>
-							<p>The Securus Protocol coincides with the story's narrative arc. The game economy, known as The Resistance Economy, is built on sustainability; game progressions and map design have been thoroughly planned. We're currently in pre-production.</p>
-							<p>We’re excited to watch the community discover the secrets, the storylines within storylines, hidden within The Ninth Palace.</p>
+							<p>
+								The Resistance Collection is the first collection for The Ninth Palace. The Resistance is, at present, a loose collective of 10,007 rogue soldiers, nurses, engineers, et al. 
+								committed to taking down the Modgnik Detinu government. 
+							</p>
+							<p>
+								Your Resistance NFT will double as your avatar for “The Ninth Palace” PC game and “The Ninth Palace: Hunted for Love” mobile game. Being a member of The Resistance will grant 
+								you access to all events where The Ninth Palace has a presence; there are six scheduled across the world in 2022.
+							</p>
+							<p>
+								The Safe House is only available to members of The Resistance; your bonafides will be checked at the door. Buying, selling, or trading mission-specific weapons, equipment, 
+								or outfits will be limited to The Safe House. All members of The Resistance will equip assets from The Safe House in-game or through the Avatar Viewer on The Ninth Palace website.
+							</p>
 						</div>
 
 						<div class="buttons">
@@ -41,18 +50,27 @@ function HomeAbout() {
 					<div class="img_item">
 						<img src="img/landing/OnePrelude.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
 					</div>
-					<div class="content_item_landing">
+					 <div class="content_item_landing">
 						<div class="neoh_fn_title" data-align="left">
-							<h3 class="fn_title">One: A Prelude</h3>
+							<h3 class="fn_title">What are the Avatars?</h3>
 							<div class="line"><span></span></div>
 						</div>
 						
 						<div class="desc">
 						<p>
-						One was the first survivor to crawl away from The Ninth Palace and is the hero of our story. He joined “The Resistance” as a means to an end. He’s fallen into the leadership role without ever wanting it. The Resistance needs him to lead; he needs to get to his wife and daughter.
+						The Avatar mint will determine what base character traits players have going forward. 
+						Collectors will have the chance to move up or down on the secondary market before the game/s are released, 
+						before the Auxiliary Airdrop, or before the game mechanics for specific NFT metadata are shared via SubStack.
 						</p>
 						<p>
-						Follow One’s story on our Medium; join our Discord to watch the story unfold.
+						The illustrations for the collection are hand drawn, unique, and game specific. There are 8 versions of Avatar; 
+						200 trait variations for the men and 197 trait variations for the women. Asian Avatars, both men and women, 
+						have one extra variation on the same trait. There are 10 Avatars that are 1-of-1s; another 10 will be reserved 
+						for giveaways, scholarships, and marketing.
+						</p>
+						<p>
+						Hidden meaning is built into every aspect of the project. Unwinding it will take some time and it’s important to stop, 
+						look, and factor in every detail. Start here… 4111. 1669. 29. 983. 10007.
 						</p>
 						</div>
 						
@@ -71,7 +89,7 @@ function HomeAbout() {
 							</a>
 						</div>
 						
-					</div>
+					</div> 
 				</div>
 				{/* <!-- !About Item #2 --> */}
 				

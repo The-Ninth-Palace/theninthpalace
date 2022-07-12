@@ -28,19 +28,23 @@ function HomeService() {
 									<h3 class="fn_title">E4, E5</h3>
 										<p class="fn_desc">
 											&#8226; 
-											The Inception Collection mint is followed by the launch of The Resistance Economy and Auxiliary Airdrop.
+											The Resistance Collection mint will be followed with the launch of The Resistance 
+											Economy and Auxiliary Airdrop. The mint will take place on Ethereum (ETH).
 											<br />
 											<br />
 											&#8226; 
-											The PC and Mobile games will both be launched alongside our ConnectONE backend, meant to provide frictionless onboarding for non-crypto gamers, shortly after the Auxiliary Airdrop.
+											The PC and Mobile games will both be launched alongside our ConnectONE backend, 
+											meant to provide frictionless onboarding for non-crypto gamers. The in-game assets 
+											and transactions will take place on ImmutableX (IMX).
 											<br />
 											<br />
 											&#8226; 
-											Throughout this time we will be hiring enthusiastically, scaling our servers and backend systems to manage MMO functionality, and developing the Asset Marketplace.
+											Throughout this time we will be hiring enthusiastically, scaling our servers 
+											and backend systems to manage MMO functionality, and developing The Safe House.
 											<br />
-											<br />
+											{/* <br />
 											&#8226; 
-											The "Moonshot” for the project is to become an incubator for other Web3 games with ambitious gameplay goals.
+											The "Moonshot” for the project is to become an incubator for other Web3 games with ambitious gameplay goals. */}
 										</p>
 								</div>
 							</div>
@@ -55,16 +59,17 @@ function HomeService() {
 									Quality and sustainability are the ideals driving the project.
 									<br /><br />
 									&#8226;
-									The NFTs are hand-drawn with unimaginable detail; certain NFTs hold hidden messages.
+									The collection was illustrated with unimaginable detail and is made up of over 250 traits or variations.
 									<br /><br />
 									&#8226;
-									The game mechanics and progressions are not only designed for excellent gameplay but are unique to specific metadata.
+									The game mechanics and game progressions are unique to specific NFT metadata. Not all avatars are equal. Primus.
 									<br /><br />
 									&#8226;
-									The game economy was constructed to be sustainable but exciting, complex, and most importantly scalable.
+									The game economy was constructed to be sustainable but exciting, complex, and scalable.
 									<br /><br />
 									&#8226;
-									The narrative of The Ninth Palace guides the PC game; the mobile game's narrative is a sub-set of The Ninth Palace storyline but a bit more romantic.
+									The narrative of The Ninth Palace guides the PC game; the mobile game's narrative is a sub-set of 
+									The Ninth Palace storyline but a bit more romantic.
 									</p>
 								</div>
 							</div>
@@ -76,19 +81,20 @@ function HomeService() {
 									<h3 class="fn_title">QH5, NF6</h3>
 									<p class="fn_desc">
 									&#8226;
-									The future of the project is ambitious.
+									The Resistance mint provides the runway necessary for The Ninth Palace storyline to grow.
 									<br /><br />
 									&#8226;
-									Our Securus Protocol encompasses the next 18 months and the v2 Securus Protocol is already being plotted for time.
+									The Securus Protocol covers the next 18-24 months. The v2 Protocol is already being plotted for time. 
 									<br /><br />
 									&#8226;
-									We intend to build a gaming franchise with The Ninth Palace.
+									We are building the bridge into Web3 for non-crypto gamers.
 									<br /><br />
 									&#8226;
-									We want to grow our core team, our industry network, and our community to make the incubator that much more effective.
-									<br /><br />
+									The Ninth Palace is an ambitious project. There are no illusions here. Great gameplay requires time 
+									and capital to build properly. We will not sacrifice quality for anything. The stakes are too high. 
+									{/* <br /><br />
 									&#8226;
-									Most importantly we want to be the bridge into Web3 for non-crypto gamers.
+									Most importantly we want to be the bridge into Web3 for non-crypto gamers. */}
 									</p>
 								</div>
 							</div>
@@ -100,19 +106,24 @@ function HomeService() {
 									<h3 class="fn_title">QxF7#</h3>
 									<p class="fn_desc">
 									&#8226;
-									We started this project tracking expenses, investments, and work hours. We’re a company.
+									We are a start-up; we track expenses, investments, and work hours. We have experience with 
+									capital efficiency, scaling, and project management. We aren’t “winging” anything.
 									<br /><br />
 									&#8226;
-									Our accounting principles actually work with Web3.
+									We've applied for legal registration in Singapore, and are awaiting approval for a crypto-bank 
+									account.
 									<br /><br />
 									&#8226;
-									We've applied for legal registration in Singapore, and are awaiting approval for a crypto-bank account.
-									<br /><br />
+									We've worked with legal advisors from the beginning to ensure our game economy was compliant 
+									across multiple jurisdictions, and any future TGE would satisfy the Howey Test requirements.
+									<br />{/*<br />
 									&#8226;
-									We've worked with legal advisors from the beginning to ensure our game economy was compliant across jurisdictions, and any future TGE would satisfy the Howey Test requirements.
-									<br /><br />
+									The Ninth Palace is an ambitious project. There are no illusions here. Great gameplay 
+									requires time and capital to build properly. We will not sacrifice quality for anything. 
+									The stakes are too high. 
+									 <br /><br />
 									&#8226;
-									Our secret to sustainability actually lies in our approach to running a start-up company.
+									Our secret to sustainability actually lies in our approach to running a start-up company. */}
 									</p>
 								</div>
 							</div>
