@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/theninthpalace/static/css/main.cb7ff506.css",
-    "main.js": "/theninthpalace/static/js/main.8b13067c.js",
+    "main.js": "/theninthpalace/static/js/main.8ff5059b.js",
     "static/media/DirtyEgo-Dn2R.ttf": "/theninthpalace/static/media/DirtyEgo-Dn2R.c9fefc9928a430baaf96.ttf",
     "static/media/fontello.svg?65176178": "/theninthpalace/static/media/fontello.4087200e302730e22af7.svg",
     "static/media/fontello.eot?65176178": "/theninthpalace/static/media/fontello.2b72d59211675024fbf3.eot",
@@ -11,10 +11,10 @@
     "index.html": "/theninthpalace/index.html",
     "static/media/divider.svg": "/theninthpalace/static/media/divider.731d073727d59ced2c53.svg",
     "main.cb7ff506.css.map": "/theninthpalace/static/css/main.cb7ff506.css.map",
-    "main.8b13067c.js.map": "/theninthpalace/static/js/main.8b13067c.js.map"
+    "main.8ff5059b.js.map": "/theninthpalace/static/js/main.8ff5059b.js.map"
   },
   "entrypoints": [
     "static/css/main.cb7ff506.css",
-    "static/js/main.8b13067c.js"
+    "static/js/main.8ff5059b.js"
   ]
 }
