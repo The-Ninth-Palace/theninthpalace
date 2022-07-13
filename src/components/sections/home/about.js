@@ -48,7 +48,7 @@ function HomeAbout() {
 				{/* <!-- About Item #2 --> */}
 				<div class="neoh_fn_about_item reverse">
 					<div class="img_item">
-						<img src="img/landing/OnePrelude.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+						<img src="img/landing/comingsoon.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
 					</div>
 					 <div class="content_item_landing">
 						<div class="neoh_fn_title" data-align="left">

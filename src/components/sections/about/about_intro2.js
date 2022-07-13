@@ -57,7 +57,7 @@ function AboutIntro2() {
                     </a>
                   </div>
                 </div>
-              </div>
+    </div>
     </>
     
   );
