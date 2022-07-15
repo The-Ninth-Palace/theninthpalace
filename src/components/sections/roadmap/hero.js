@@ -7,7 +7,7 @@ function RoadmapHero() {
     <div class="neoh_fn_pagetitle">
 			<div class="bg_overlay">
 				<div class="bg_color"></div>
-				<div class="bg_image" data-bg-img="img/landing/protocol-Bg2.jpg"></div>
+				<div class="bg_image" data-bg-img="img/landing/protocol-Bg.jpg"></div>
 			</div>
 			<div class="pt_content">
 				<div class="container">

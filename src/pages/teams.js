@@ -4,7 +4,6 @@ import Header from "../components/header";
 import ToTop from "../components/totop";
 import Footer from "../components/footer";
 import HeroSection from "../components/sections/contact/hero";
-import ContactForm from '../components/sections/contact/contactform';
 import Teams from '../components/sections/about/team';
 import GoToTop from '../components/gototop';
 import Script from '../components/utils/customscript';
