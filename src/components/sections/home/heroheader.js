@@ -23,7 +23,7 @@ function HeroHeader() {
 			<div class="hero_content">
 				<div class="container">
 					<div class="content">
-						<h2 class="fn_title" title="Ninth Palace">The Ninth Palace</h2>
+						<h2 class="fn_title fn_animated_text" title="Ninth Palace" data-wait="1000" data-speed="8">The Ninth Palace</h2>
 						<p class="fn_desc fn_animated_text" data-wait="200" data-speed="5"><b>Join The Resistance</b></p>
 					</div>
 				</div>

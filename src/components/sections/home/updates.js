@@ -41,8 +41,8 @@ function UpdateSection() {
 
 								<a class="twitter-timeline" href="https://twitter.com/theninthpalace?ref_src=twsrc%5Etfw"
 								data-width="360" data-height="350" 
-								data-chrome=" noborders" 
-								data-tweet-limit="1">
+								data-chrome=" noborders" data-theme="dark"
+								data-tweet-limit="3">
 									Tweets by theninthpalace</a> 
 									
 										
@@ -94,7 +94,9 @@ function UpdateSection() {
 								</h3>
 								<p class="fn_desc_substack" >
 									{/* Asset creation begins, and The Resistance Economy is born. The illustrations for teasers, avatar mint, and marketing begin to get created. */}
-									<iframe width="100%" height="320"  src="https://theninthpalace.substack.com/embed" frameborder="0" scrolling="no"></iframe>
+									<iframe width="100%" height="420px"
+									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
+									
 								</p>
 							</div>
 						</li>
