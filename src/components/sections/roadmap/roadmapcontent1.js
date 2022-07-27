@@ -29,16 +29,12 @@ function RoadmapPage() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>June-October 2022</span>
+                        <span>July-October 2022</span>
                       </p>
                       <h3 class="fn_title">
                         Introduction. Explanation. Understanding.
                       </h3>
                       <p class="fn_desc">
-                        Introducing the project to the world. Bringing the gaming & NFT communities together through Discord, Medium, and SubStack. 
-                        Releasing the first clue in "The Resistance Riddle." The pre-production phase for the PC game will end and production will begin. 
-                        The avatars will mint and the first "Safe House" will be opened for holders only. Mobile beta-testing list will open for enrollment. 
-                        Events 1 & 2.
                         <ul>
                             <li>Grow the community; bridge to the gaming community through Discord.</li>
                             <li>Release "The Resistance Riddle" to the community.
@@ -84,9 +80,6 @@ function RoadmapPage() {
                         Growth. Economics. Sustainability.
                       </h3>
                       <p class="fn_desc">
-                      The avatar viewer and dApp are released. Holders and players will have a chance to familiarize themselves with the environment; 
-                      we will take suggestions, and be able to test effectively before the in-game deployment of a crucial piece of the ecosystem. 
-                      Genesis holders will receive the "Auxiliary" airdrop. The Resistance Economy White Paper is introduced; voting ensues. Events 3 & 4. 
                         <ul>
                             <li>dApp & avatar viewer are released.
                                 <ul>
@@ -129,9 +122,6 @@ function RoadmapPage() {
                         Launch. Test. Upgrade.
                       </h3>
                       <p class="fn_desc">
-                      The Resistance Economy is launched. The $SIGNA token IDO; enables in-game & marketplace buying, selling, and trading of assets. 
-                      The mobile game-"The Ninth Palace: Hunted for Love"- a sub-set of the storyline for the PC game, is released. 
-                      The "ConnectOne" log-ins are introduced to coincide with the mobile game launch. The PC beta-testing list will open. Event 5 & 6.
                         <ul>
                             <li>Launch The Resistance Economy - $SIGNA IDO.</li>
                             <li>Share the "ConnectOne" Design. Release it to the community.
@@ -178,9 +168,6 @@ function RoadmapPage() {
                         Level Up. Consolidate. Prepare.
                       </h3>
                       <p class="fn_desc">
-                      The team gears up for the PC game launch. There will be changes; security checks, and audits; testing will be done to ensure a smooth 
-                      operating environment at scale; the "ConnectOne" system will undergo UI/UX/, A/B testing, and traffic testing. 
-                      There will be an exclusive merchandise drop w/ Collaborators of the Resistance, which is marked Top Secret.
                         <ul>
                             <li>Prepare for the PC game launch.</li>
                             <li>Secure the Ecosystem; Test the UI/UX, run A/B Testing, and Test for scaleability.</li>
@@ -215,9 +202,6 @@ function RoadmapPage() {
                         Launch. Secure. Market. Scale.
                       </h3>
                       <p class="fn_desc">
-                      The PC game launches. Integration with Flamestore. The $SIGNA token will become the official store of value within the ecosystem. 
-                      The marketplace will launch and players will be able to submit assets to the Asset Approval Team. All asset royalties will belong to the creator. 
-                      A massive marketing campaign begins. The "Web3 x Gaming Incubator" is introduced to the world. 
                         <ul>
                             <li>Launch The Ninth Palace for PC; Campaign & PvP Modes.</li>
                             <li>$SIGNA becomes the only token accepted in the marketplace, earned through campaign play, or from players.</li>

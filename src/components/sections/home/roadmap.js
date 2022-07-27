@@ -39,7 +39,7 @@ function HomeRoadmap() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>June-October 2022</span>
+                        <span>July-October 2022</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Introduction. Explanation. Understanding.</Link></h3>
                       <p class="fn_desc">
