@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ConnectMetaMask from "../../connectmetamask";
-import PlaySound from "../../sound";
+// import PlaySound from "../../sound";
 
 function HomeAbout() {
     return (

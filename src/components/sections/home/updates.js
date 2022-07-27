@@ -94,7 +94,7 @@ function UpdateSection() {
 								</h3>
 								<p class="fn_desc_substack" >
 									{/* Asset creation begins, and The Resistance Economy is born. The illustrations for teasers, avatar mint, and marketing begin to get created. */}
-									<iframe width="100%" height="420px"
+									<iframe width="350px" height="420px"
 									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
 									
 								</p>
