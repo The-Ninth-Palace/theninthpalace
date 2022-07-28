@@ -192,7 +192,7 @@ function HomeRoadmap() {
                   <ul>
                     <li class="active" data-index="1">
                       <a href="#">
-                        <span class="text">June-October 2022</span>
+                        <span class="text">July-October 2022</span>
                         <span class="circle"></span>
                       </a>
                     </li>
