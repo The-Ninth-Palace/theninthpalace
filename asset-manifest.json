@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/theninthpalace/static/css/main.fa11acb9.css",
-    "main.js": "/theninthpalace/static/js/main.bd948f6a.js",
+    "main.js": "/theninthpalace/static/js/main.3bb59e02.js",
     "static/media/ColdplayXBTS-MyUniverse.mp3": "/theninthpalace/static/media/ColdplayXBTS-MyUniverse.bddf7e2d66b7aee05809.mp3",
     "static/media/cartoon-intro-13087.mp3": "/theninthpalace/static/media/cartoon-intro-13087.e3cc537e528a96ccdad7.mp3",
     "static/media/DirtyEgo-Dn2R.ttf": "/theninthpalace/static/media/DirtyEgo-Dn2R.c9fefc9928a430baaf96.ttf",
@@ -13,10 +13,10 @@
     "index.html": "/theninthpalace/index.html",
     "static/media/divider.svg": "/theninthpalace/static/media/divider.731d073727d59ced2c53.svg",
     "main.fa11acb9.css.map": "/theninthpalace/static/css/main.fa11acb9.css.map",
-    "main.bd948f6a.js.map": "/theninthpalace/static/js/main.bd948f6a.js.map"
+    "main.3bb59e02.js.map": "/theninthpalace/static/js/main.3bb59e02.js.map"
   },
   "entrypoints": [
     "static/css/main.fa11acb9.css",
-    "static/js/main.bd948f6a.js"
+    "static/js/main.3bb59e02.js"
   ]
 }
