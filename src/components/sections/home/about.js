@@ -25,7 +25,7 @@ function HomeAbout() {
 							{/* <PlaySound/> */}
 							<p>
 								The Resistance Collection is the first collection for The Ninth Palace. The Resistance is, at present, a loose collective of 10,007 rogue soldiers 
-								and civilians committed to taking down the Modgnik Detinu government. 
+								and civilians committed to taking down the Modgnik Detinu government.  
 							</p>
 							<p>
 								Your Resistance NFT will double as your avatar for “The Ninth Palace” PC game and “The Ninth Palace: Hunted for Love” mobile game. 
@@ -52,7 +52,7 @@ function HomeAbout() {
 				{/* <!-- About Item #2 --> */}
 				<div class="neoh_fn_about_item reverse">
 					<div class="img_item">
-						<img src="img/landing/comingsoon.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+						<img src="img/landing/whatareAvatar.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
 					</div>
 					 <div class="content_item_landing">
 						<div class="neoh_fn_title" data-align="left">
