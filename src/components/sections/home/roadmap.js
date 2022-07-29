@@ -48,6 +48,9 @@ function HomeRoadmap() {
                         The avatars will mint and the first "Safe House" will be opened for holders only. Mobile beta-testing list will open for enrollment. 
                         Events 1 & 2.
                         </p>
+                        <Link to="/roadmap" class="neoh_fn_button only_text">
+												<span class="text">Read More</span>
+											</Link>
                     </div>
                   </div>
                 </li>
@@ -78,6 +81,9 @@ function HomeRoadmap() {
                       we will take suggestions, and be able to test effectively before the in-game deployment of a crucial piece of the ecosystem. 
                       Genesis holders will receive the "Auxiliary" airdrop. The Resistance Economy White Paper is introduced; voting ensues. Events 3 & 4.
                         </p>
+                        <Link to="/roadmap" class="neoh_fn_button only_text">
+												<span class="text">Read More</span>
+											</Link>
                     </div>
                   </div>
                 </li>
@@ -108,6 +114,9 @@ function HomeRoadmap() {
                       The mobile game-"The Ninth Palace: Hunted for Love"- a sub-set of the storyline for the PC game, is released. 
                       The "ConnectOne" log-ins are introduced to coincide with the mobile game launch. The PC beta-testing list will open. Event 5 & 6.
                         </p>
+                        <Link to="/roadmap" class="neoh_fn_button only_text">
+												<span class="text">Read More</span>
+											</Link>
                     </div>
                   </div>
                 </li>
@@ -138,6 +147,9 @@ function HomeRoadmap() {
                       operating environment at scale; the "ConnectOne" system will undergo UI/UX/, A/B testing, and traffic testing. 
                       There will be an exclusive merchandise drop w/ Collaborators of the Resistance, which is marked Top Secret.
                       </p>
+                      <Link to="/roadmap" class="neoh_fn_button only_text">
+												<span class="text">Read More</span>
+											</Link>
                     </div>
                   </div>
                 </li>
@@ -169,6 +181,9 @@ function HomeRoadmap() {
                       The marketplace will launch and players will be able to submit assets to the Asset Approval Team. All asset royalties will belong to the creator. 
                       A massive marketing campaign begins. The "Web3 x Gaming Incubator" is introduced to the world.
                       </p>
+                      <Link to="/roadmap" class="neoh_fn_button only_text">
+												<span class="text">Read More</span>
+											</Link>
                     </div>
                   </div>
                 </li>
