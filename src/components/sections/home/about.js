@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ConnectMetaMask from "../../connectmetamask";
-import PlaySound from "../../sound";
+// import PlaySound from "../../sound";
 
 function HomeAbout() {
     return (
@@ -22,7 +21,7 @@ function HomeAbout() {
 						</div>
 						
 						<div class="desc">
-							<PlaySound/>
+							{/* <PlaySound/> */}
 							<p>
 								The Resistance Collection is the first collection for The Ninth Palace. The Resistance is, at present, a loose collective of 10,007 rogue soldiers 
 								and civilians committed to taking down the Modgnik Detinu government.  
