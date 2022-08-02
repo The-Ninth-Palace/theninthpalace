@@ -47,6 +47,10 @@ body{
 	word-break: break-word;
 	background-color: var(--sbc);
 }
+
+html#main {
+	background-color:var(--sbc);
+}
 .fn__svg{
 	fill: currentcolor;
 	/* fill: #ECEBDF; */
@@ -1461,10 +1465,31 @@ a.full_link{
 	list-style-type: none;
 	margin-left: -50px;
 }
+.neoh_fn_moving_blog .column li{
+	padding-left: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	flex-direction: column;
+	flex-basis: 100%;
+  	flex: 1
+}
+
+.neoh_fn_moving_blog .doublecolumn li{
+	padding-left: 50px;
+	margin-bottom: 50px;
+	width: 100%;
+	flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+  
+}
+
 .neoh_fn_moving_blog li{
 	padding-left: 50px;
 	margin-bottom: 50px;
-	/* width: 33.3333%; */
+	width: 100%;
+	flex-basis: 100%;
+  	flex: 1
 }
 .neoh_fn_moving_blog .item{
 	width: 100%;
@@ -1746,6 +1771,7 @@ a.full_link{
 	min-width: 850px;
 	z-index: 999;
 	background-color: #111;
+	opacity: 0.9;
 	right: 0;
 	top: 0;
 	display: -webkit-flex;
@@ -1831,7 +1857,7 @@ a.full_link{
 }
 .neoh_fn_nav .nav_menu li{
 	margin-bottom: 30px;
-	transition: all .5s ease;
+	transition: all .2s ease;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -1867,19 +1893,19 @@ a.full_link{
 	background-position: -100%;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.1s ease-in-out;
 	position: relative;
 }
 .neoh_fn_nav .nav_menu a:before {
 	content: '';
-	background: var(--mc);
-	display: block;
+	/* background: var(--mc);
+	display: block; */
 	position: absolute;
 	bottom: -3px;
 	left: 0;
 	width: 0;
 	height: 3px;
-	transition: all 0.5s ease-in-out;
+	transition: all 0.1s ease-in-out;
 }
 .neoh_fn_nav .nav_menu .menu-item-has-children > a:after{
 	content: '';
@@ -1949,7 +1975,7 @@ a.full_link{
 	background-color: rgba(255,255,255,.1);
 	left: 0;
 	top: 0;
-	transition: all .5s .3s ease;
+	transition: all .1s .1s ease;
 }
 .neoh_fn_nav .nav_footer .nf_left p{
 	margin: 0;
@@ -1974,27 +2000,27 @@ a.full_link{
 	background-color: rgba(0, 0, 0, 0.8);
 	top: 0;
 	left: 0;
-	transition: all 1s .7s cubic-bezier(0.02, 0.19, 0, 0.96);
+	transition: all .3s .2s cubic-bezier(0.02, 0.19, 0, 0.96);
 	height: 100vh;
 	transform: translateX(-102%);
 	cursor: pointer;
 }
 .nav_overlay.go{
-	transition: all 1s .3s cubic-bezier(0.02, 0.19, 0, 0.96);
+	transition: all .1s .1s cubic-bezier(0.02, 0.19, 0, 0.96);
 	transform: translateX(0%);
 }
 .neoh_fn_nav{
-	transition: all 1s .3s cubic-bezier(0.02, 0.19, 0, 0.96);
+	transition: all .1s .1s cubic-bezier(0.02, 0.19, 0, 0.96);
 	transform: translateX(102%);
 }
 .neoh_fn_nav.go{
-	transition: all 1s 1.3s cubic-bezier(0.02, 0.19, 0, 0.96);
+	transition: all .3s .2s cubic-bezier(0.02, 0.19, 0, 0.96);
 	transform: translateX(0%);
 }
 .neoh_fn_nav .nav_buttons,
 .neoh_fn_nav .nav_footer{
 	opacity: 0;
-	transition: opacity .3s ease;
+	transition: opacity .1s ease;
 }
 .neoh_fn_nav .nav_buttons.ready,
 .neoh_fn_nav .nav_footer.ready{

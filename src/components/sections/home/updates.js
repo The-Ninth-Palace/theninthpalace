@@ -1,5 +1,6 @@
 import React from "react";
 import MediumBlog from "../../mediumblog";
+import SubStackBlog from "../../substackblog";
 
 function UpdateSection() {
     return (
@@ -17,7 +18,7 @@ function UpdateSection() {
 				{/* <!-- Moving Blog List Shortcode --> */}
 				<div class="neoh_fn_moving_blog">
 					<ul>
-						<li>
+						<li class="column">
 							<div class="item">
 								{/* <img src="img/landing/twitter.png" alt="" class="moving_img"/> */}
 								<p class="fn_date">
@@ -40,9 +41,9 @@ function UpdateSection() {
 								Tweets by @theninthpalace </a> */}
 
 								<a class="twitter-timeline" href="https://twitter.com/theninthpalace?ref_src=twsrc%5Etfw"
-								data-width="360" data-height="350" 
+								data-width="500" data-height="350" 
 								data-chrome=" noborders" data-theme="dark"
-								data-tweet-limit="2">
+								data-tweet-limit="3">
 									Tweets by theninthpalace</a> 
 									
 										
@@ -67,7 +68,28 @@ function UpdateSection() {
 							</div>
 						</li>
 						<li>
-							<div class="item">
+						<div class="item">
+								{/* <img src="img/landing/medium.png" alt="" class="moving_img"/> */}
+								<p class="fn_date">
+									<span>Medium</span>
+								</p>
+								<h3 class="fn_title">
+									<a href="https://medium.com/coinmonks/the-ninth-palace-d487ab2cbaa9">
+										Follow us on Medium...
+									</a>
+								</h3>
+								<MediumBlog />
+							</div>
+							
+						</li>
+						
+						
+					</ul>
+					
+
+					<ul>
+					<li class="doublecolumn">
+					<div class="item">
 								{/* <img src="img/landing/substack.png" alt="" class="moving_img"/> */}
 								
 								<p class="fn_date">
@@ -80,31 +102,14 @@ function UpdateSection() {
 								</h3>
 								<p class="fn_desc_substack" >
 									{/* Asset creation begins, and The Resistance Economy is born. The illustrations for teasers, avatar mint, and marketing begin to get created. */}
-									<iframe width="100%" height="420px"
+									<iframe class="substack" width="100%" height="420px" style={{backgroundColor: "lightblue"}}
 									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
+
+									{/* <SubStackBlog /> */}
 									
 								</p>
 							</div>
 						</li>
-						<li>
-							<div class="item">
-								{/* <img src="img/landing/medium.png" alt="" class="moving_img"/> */}
-								<p class="fn_date">
-									<span>Medium</span>
-								</p>
-								<h3 class="fn_title">
-									<a href="https://medium.com/coinmonks/the-ninth-palace-d487ab2cbaa9">
-										Follow us on Medium...
-									</a>
-								</h3>
-								<MediumBlog />
-							</div>
-						</li>
-						
-					</ul>
-
-					<ul>
-					
 					</ul>
 				</div>
 				{/* <!-- !Moving Blog List Shortcode --> */}

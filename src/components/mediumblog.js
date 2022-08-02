@@ -17,7 +17,7 @@ const MediumBlog = () => {
         .catch(err => console.log(err));
     }, []);
   
-    const finalData = mediumData.slice(0, 1);
+    const finalData = mediumData.slice(0, 2);
   
     return (
       <div >
