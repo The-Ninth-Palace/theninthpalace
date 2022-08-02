@@ -72,7 +72,7 @@ function Investors() {
 					</ul>
 				</div>
 				<div class="neoh_fn_investor">
-					<ul>
+					{/* <ul>
 						<li>
 							<div class="item">
 								<img src="img/landing/playstore.png" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
@@ -85,7 +85,7 @@ function Investors() {
 								<a href="#" class="full_link"></a>
 							</div>
 						</li>
-					</ul>
+					</ul> */}
 				</div>
 				{/* <!-- !Investor List Shortcode --> */}
 				

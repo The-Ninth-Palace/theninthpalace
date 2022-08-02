@@ -25,11 +25,11 @@ function AboutHero() {
               >
                 About
               </h3>
-              <p class="fn_desc">
+              {/* <p class="fn_desc">
                 <a href="/">Home</a>
                 <span class="separator">/</span>
                 <span class="current">About</span>
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

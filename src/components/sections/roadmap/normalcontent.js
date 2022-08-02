@@ -34,7 +34,7 @@ function NormalContent() {
                     Growth. Economics. Sustainability.
                 </h2>
                 <div class="categories">
-                  <a href="#">Game</a>, <a href="#">NFTs</a>,<a href="#">Tokens</a>
+                  <p>Game, NFTs, Tokens</p>
                 </div>
               </div>
               {/* <!-- !Single Title --> */}
@@ -44,9 +44,9 @@ function NormalContent() {
                 <p class="fn_desc">
                 Please, understand that the following is subject to change. This document is meant to lead The Resistance, 
                 but it is not a definitive list of what we must do to flourish. The timing and order of these items can change as we scale. 
-                We've created this Roadmap with three primarygoals in mind.
+                We've created this Roadmap with three primary goals in mind.
                     <ul>
-                        <li>Raise the bar for NFT projects as businesses. Creating value has to be the future; great art is healthy baseline. 
+                        <li>Raise the bar for NFT projects as businesses. Creating value has to be the future; great art is a healthy baseline. 
                           This is the standard we have set for ourselves, and hopefully, it translates into a higher level of commitment from the 
                           projects that are building the future.</li>
                         <li>Build AAA-quality Web3, P2E video game. All blockchain games don't have to be pixelated cartoons or card games. 

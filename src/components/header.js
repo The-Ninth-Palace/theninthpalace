@@ -12,7 +12,7 @@ function Header() {
 				<div class="logo">
 					<a href="./"><img src="img/logo.png" alt="The Ninth Palace NFT Icon" title="The Ninth Palace "/></a>
 				</div>
-				<ConnectMetaMask />
+				{/* <ConnectMetaMask /> */}
 				<div class="trigger">
 					
 					<div class="trigger_in">

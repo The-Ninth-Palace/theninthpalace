@@ -42,7 +42,7 @@ function UpdateSection() {
 								<a class="twitter-timeline" href="https://twitter.com/theninthpalace?ref_src=twsrc%5Etfw"
 								data-width="360" data-height="350" 
 								data-chrome=" noborders" data-theme="dark"
-								data-tweet-limit="3">
+								data-tweet-limit="2">
 									Tweets by theninthpalace</a> 
 									
 										
@@ -68,20 +68,6 @@ function UpdateSection() {
 						</li>
 						<li>
 							<div class="item">
-								{/* <img src="img/landing/medium.png" alt="" class="moving_img"/> */}
-								<p class="fn_date">
-									<span>Medium</span>
-								</p>
-								<h3 class="fn_title">
-									<a href="https://medium.com/coinmonks/the-ninth-palace-d487ab2cbaa9">
-										Follow us on Medium...
-									</a>
-								</h3>
-								<MediumBlog />
-							</div>
-						</li>
-						<li>
-							<div class="item">
 								{/* <img src="img/landing/substack.png" alt="" class="moving_img"/> */}
 								
 								<p class="fn_date">
@@ -94,12 +80,31 @@ function UpdateSection() {
 								</h3>
 								<p class="fn_desc_substack" >
 									{/* Asset creation begins, and The Resistance Economy is born. The illustrations for teasers, avatar mint, and marketing begin to get created. */}
-									<iframe width="350px" height="420px"
+									<iframe width="100%" height="420px"
 									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
 									
 								</p>
 							</div>
 						</li>
+						<li>
+							<div class="item">
+								{/* <img src="img/landing/medium.png" alt="" class="moving_img"/> */}
+								<p class="fn_date">
+									<span>Medium</span>
+								</p>
+								<h3 class="fn_title">
+									<a href="https://medium.com/coinmonks/the-ninth-palace-d487ab2cbaa9">
+										Follow us on Medium...
+									</a>
+								</h3>
+								<MediumBlog />
+							</div>
+						</li>
+						
+					</ul>
+
+					<ul>
+					
 					</ul>
 				</div>
 				{/* <!-- !Moving Blog List Shortcode --> */}

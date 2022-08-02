@@ -34,7 +34,7 @@ function Teams() {
                           <p class="fn_desc">Founder</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -52,7 +52,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -67,7 +67,7 @@ function Teams() {
                           <p class="fn_desc">Illustrator</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -85,7 +85,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -100,7 +100,7 @@ function Teams() {
                           <p class="fn_desc">Full-Stack Developer</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -118,7 +118,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -133,7 +133,7 @@ function Teams() {
                           <p class="fn_desc">Solidity Developer</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -151,7 +151,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -166,7 +166,7 @@ function Teams() {
                           <p class="fn_desc">3D Character Modeling</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -184,7 +184,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -199,7 +199,7 @@ function Teams() {
                           <p class="fn_desc">Animator</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -217,7 +217,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -232,7 +232,7 @@ function Teams() {
                           <p class="fn_desc">Marketing Lead</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -250,7 +250,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -265,7 +265,7 @@ function Teams() {
                           <p class="fn_desc">Community Manager</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -283,7 +283,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 
@@ -298,7 +298,7 @@ function Teams() {
                           <p class="fn_desc">Game Developer</p>
                         </div>
                       </div>
-                      <div class="person_social">
+                      {/* <div class="person_social">
                         <ul>
                           <li>
                             <a href="#"><i class="fn-icon-twitter"></i></a>
@@ -316,7 +316,7 @@ function Teams() {
                             <a href="#"><i class="fn-icon-behance"></i></a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </div>
                   </li>
 

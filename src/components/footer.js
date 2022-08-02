@@ -54,19 +54,20 @@ function Footer() {
 			<div class="footer_bottom">
 				<div class="container">
 					<div class="fb_in">
-					
-						<div class="fb_left">
+					<SocialListFooter />
+					<p>© 2022 CC0. All rights reserved.</p>
+						{/* <div class="fb_left">
 							<ul>
 								<li>
 								<img src="img/footer-logo.png" width="80px" alt="The Ninth Palace NFT Icon" title="The Ninth Palace "/>
 								</li>
 								<li>
-								<p>Copyright: CC0; Design: Frenify; Development: Jin</p>
+								<p>© 2022 CC0. All rights reserved.</p>
 								</li>
 							</ul>
 						</div>
 						
-						<SocialListFooter />
+						<SocialListFooter /> */}
 					</div>
 				</div>
 			</div>
