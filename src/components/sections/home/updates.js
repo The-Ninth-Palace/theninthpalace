@@ -1,6 +1,6 @@
 import React from "react";
 import MediumBlog from "../../mediumblog";
-import SubStackBlog from "../../substackblog";
+// import SubStackBlog from "../../substackblog";
 
 function UpdateSection() {
     return (
