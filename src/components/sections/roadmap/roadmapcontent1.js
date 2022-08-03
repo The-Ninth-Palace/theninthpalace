@@ -29,27 +29,41 @@ function RoadmapPage() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>July-October 2022</span>
+                        <span>August-September, 2022</span>
                       </p>
                       <h3 class="fn_title">
                         Introduction. Explanation. Understanding.
                       </h3>
                       <p class="fn_desc">
                         <ul>
-                            <li>Grow the community; bridge to the gaming community through Discord.</li>
-                            <li>Release "The Resistance Riddle" to the community.
-                                <ul>
-                                    <li>
-                                        Winners of the contest will win free mint, whitelist spots, and physical art (Numbered/Signed)
-                                    </li>
-                                </ul>
+                            <li>
+                              Introduction. We begin building the bridge between the gaming community and the Web3 community. 
+                              The website, social media accounts, and the Discord server will go online. 
                             </li>
-                            <li>Mint the Genesis Avatars - The Resistance Event.</li>
-                            <li>Move to the "Production" phase of the PC & Mobile games.</li>
-                            <li>Open the first Safe House to Genesis holders.</li>
-                            <li>Open the Mobile Beta-Testing List.</li>
-                            <li>The Global NFT Summit Live - London, England (7/22)</li>
-                            <li>Korea Blockchain Week - Seoul, South Korea (8/8)</li>
+                            <li>
+                              Release the first “Resistance Riddle” to the community via social media. Winners of these contests 
+                              will win Allow List slot/s, free mint/s, and/or numbered-signed physical art.
+                            </li>
+                            <li>Share the Virtual Waiting Room mint style with the community; Contract Audit.</li>
+                            <li>Mint the Resistance Avatars - Referred to as “The Resistance Event.”</li>
+                            <li>Wrap Pre-Production. The Production phase of the PC/Mobile games will begin.</li>
+                            <li>Security/Permissions Audit of the entire project.</li>
+                            <li>
+                              NFT Show Europe - Valencia, Spain (9/17)
+                              <ul>
+                                <li>
+                                  Resistance Members: See “Events” on the Discord Server.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>Token2049 - Singapore (9/28)
+                              <ul>
+                                <li>
+                                  Resistance Holders See “Events” on the Discord Server.
+                                </li>
+                              </ul>
+                            </li>
+                            
                         </ul>
                       </p>
                     </div>
@@ -74,24 +88,42 @@ function RoadmapPage() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>October-December 2022</span>
+                        <span>October-December, 2022</span>
                       </p>
                       <h3 class="fn_title">
                         Growth. Economics. Sustainability.
                       </h3>
                       <p class="fn_desc">
                         <ul>
-                            <li>dApp & avatar viewer are released.
-                                <ul>
-                                    <li>
-                                    An environment to level-up avatars, swap outfits/skins, and buy/sell/trade weapons, equipment, or tools to complete missions.
-                                    </li>
-                                </ul>
+                          <li>
+                          Share the White Paper for the Resistance economy.
+                          </li>
+                            <li>
+                              dApp/Marketplace Development: Release “The Safe House” - an environment to level-up avatars, swap outfits/skins, 
+                              and buy/sell/trade weapons, equipment, or tools to complete missions - Beta version to Resistance members only.
                             </li>
-                            <li>Auxiliary Airdrop to Genesis holders.</li>
-                            <li>Share the White Paper for The Resistance Economy. Open voting.</li>
-                            <li>NFT Show Europe - Valencia, Spain (9/17)</li>
-                            <li>Token2049 - Singapore (9/28)</li>
+                            <li>Auxiliary Airdrop: equipment/weapon airdrop to Resistance holders.</li>
+                            <li>Open the beta testing list for the mobile game to the community.</li>
+                            <li>Release the single sign-in backend design, test it publicly, and finally, open it up to the community.</li>
+                            <li>
+                              Begin the A/B Testing and analytics across website/s, social media posts, etc. to provide data points for scale and growth. 
+                            </li>
+                            <li>
+                              Token2049 - London (11/9)
+                              <ul>
+                                <li>
+                                  Resistance Holders See “Events” on the Discord Server.
+                                </li>
+                              </ul>
+                            </li>
+                            <li>
+                            Art Basel - Miami, Florida, USA (11/30)
+                              <ul>
+                                <li>
+                                Resistance Holders See “Events” on the Discord Server.
+                                </li>
+                              </ul>
+                            </li>
                         </ul>
                       </p>
                     </div>
@@ -116,27 +148,36 @@ function RoadmapPage() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>December-March 2023</span>
+                        <span>January-April, 2023</span>
                       </p>
                       <h3 class="fn_title">
                         Launch. Test. Upgrade.
                       </h3>
                       <p class="fn_desc">
                         <ul>
-                            <li>Launch The Resistance Economy - $SIGNA IDO.</li>
-                            <li>Share the "ConnectOne" Design. Release it to the community.
-                                <ul>
-                                    <li>
-                                    Users can create an account, connect a Web3 wallet, and setup "sign-in once" or "Face-ID sign-in" instead of having to 
-                                    connect a Web3 wallet every single time they log-on to the PC or Mobile game. This is a cross-platform build. 
-                                    The backend simply displays the Web3 data to the players via their accounts. 
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>Launch the Mobile game; Campaign & PvP Modes.</li>
-                            <li>Open the PC Beta-Testing list.</li>
-                            <li>Token2049 - London (11/9)</li>
-                            <li>Art Basel - Miami, Florida, USA (11/30)</li>
+                          <li>
+                              dApp/Marketplace Development: Release “The Safe House” - an environment to level-up avatars, swap outfits/skins, 
+                              and buy/sell/trade weapons, equipment, or tools to complete missions - Beta version to Resistance members only.
+                          </li>
+                          <li>Release The Resistance Economy ($SIGNA)</li>
+                          <li>Launch the mobile game; Campaign Mode. (The Ninth Place: Hunted for Love)</li>
+                          <li>Security/Permissions Audit of the entire project.</li>
+                          <li>
+                            NFT Paris - Paris, France (2/24-25)
+                            <ul>
+                              <li>
+                                Resistance Holders See “Events” on the Discord Server.
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            Miami NFT Week - Miami, Florida (3/31-4/2)
+                            <ul>
+                              <li>
+                                Resistance Holders See “Events” on the Discord Server.
+                              </li>
+                            </ul>
+                          </li>
                         </ul>
                       </p>
                       
@@ -162,16 +203,20 @@ function RoadmapPage() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>March-May 2023</span>
+                        <span>May-August, 2023</span>
                       </p>
                       <h3 class="fn_title">
                         Level Up. Consolidate. Prepare.
                       </h3>
                       <p class="fn_desc">
                         <ul>
-                            <li>Prepare for the PC game launch.</li>
-                            <li>Secure the Ecosystem; Test the UI/UX, run A/B Testing, and Test for scaleability.</li>
-                            <li>Exclusive Merchandise Drop w/ Collaborators of the Resistance.</li>
+                            <li>Release PvP & Clan Mode on mobile.</li>
+                            <li>Open the beta testing list for the PC game to the community.</li>
+                            <li>
+                              Introduce $SIGNA buying, selling, and trading of in-game assets in The Safe House. 
+                              Beta test community-driven creation of in-game assets for submission, approval, and sale.
+                            </li>
+                            <li>Offering the first meta-subscription model for testing and analytics.</li>
                         </ul>
                       </p>
                     </div>
@@ -196,7 +241,7 @@ function RoadmapPage() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>June-August 2023</span>
+                        <span>September-December, 2023</span>
                       </p>
                       <h3 class="fn_title">
                         Launch. Secure. Market. Scale.
@@ -204,9 +249,10 @@ function RoadmapPage() {
                       <p class="fn_desc">
                         <ul>
                             <li>Launch The Ninth Palace for PC; Campaign & PvP Modes.</li>
-                            <li>$SIGNA becomes the only token accepted in the marketplace, earned through campaign play, or from players.</li>
-                            <li>Launch Incubator for Web3 game developers/companies that need support or a network.</li>
-                            <li>Massive Marketing Campaign - Global, Animated, and Year-Round. </li>
+                            <li>Introduce the $SIGNA Swap in-game and on the web for immediate, gasless swaps between the $SIGNA token and a pool of stablecoins.</li>
+                            <li>Security/Permissions Audit of the entire project.</li>
+                            <li>A massive marketing campaign will begin once the kinks are ironed out of the gameplay, economy, and onboarding procedure.</li>
+                            <li>Onboarding. Hiring. Scaling. Growth.</li>
                         </ul>
                       </p>
                     </div>

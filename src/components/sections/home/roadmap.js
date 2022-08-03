@@ -39,7 +39,7 @@ function HomeRoadmap() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>July-October 2022</span>
+                        <span>August-September, 2022</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Introduction. Explanation. Understanding.</Link></h3>
                       <p class="fn_desc">
@@ -73,7 +73,7 @@ function HomeRoadmap() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>October-December 2022</span>
+                        <span>October-December, 2022</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Growth. Economics. Sustainability.</Link></h3>
                       <p class="fn_desc">
@@ -107,7 +107,7 @@ function HomeRoadmap() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>December-March 2023</span>
+                        <span>January-April, 2023</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Launch. Test. Upgrade.</Link></h3>
                       <p class="fn_desc">
@@ -141,7 +141,7 @@ function HomeRoadmap() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>March-May 2023</span>
+                        <span>May-August, 2023</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Level Up. Consolidate. Prepare.</Link></h3>
                       <p class="fn_desc">
@@ -175,7 +175,7 @@ function HomeRoadmap() {
                     </div>
                     <div class="t_item_info">
                       <p class="fn_date">
-                        <span>June-August 2023</span>
+                        <span>September-December, 2023</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Launch. Secure. Market. Scale.</Link></h3>
                       <p class="fn_desc">
@@ -211,7 +211,7 @@ function HomeRoadmap() {
                   <ul>
                     <li class="active" data-index="1">
                       <a href="#">
-                        <span class="text">July-October 2022</span>
+                        <span class="text">August-September 2022</span>
                         <span class="circle"></span>
                       </a>
                     </li>
@@ -223,19 +223,19 @@ function HomeRoadmap() {
                     </li>
                     <li data-index="3">
                       <a href="#">
-                        <span class="text">December-March 2023</span>
+                        <span class="text">January-April 2023</span>
                         <span class="circle"></span>
                       </a>
                     </li>
                     <li data-index="4">
                       <a href="#">
-                        <span class="text">March-May 2023</span>
+                        <span class="text">May-August 2023</span>
                         <span class="circle"></span>
                       </a>
                     </li>
                     <li data-index="5">
                       <a href="#">
-                        <span class="text">June-August 2023</span>
+                        <span class="text">September-December 2023</span>
                         <span class="circle"></span>
                       </a>
                     </li>

@@ -42,24 +42,32 @@ function NormalContent() {
               {/* <!-- Single Description --> */}
               <div class="single_desc">
                 <p class="fn_desc">
-                Please, understand that the following is subject to change. This document is meant to lead The Resistance, 
-                but it is not a definitive list of what we must do to flourish. The timing and order of these items can change as we scale. 
+                Please understand that the following is subject to change. This document is meant to lead The Resistance, but it is not a definitive 
+                list of what we must do to flourish. The timing and order of these items can change as we scale. Development in our industry is fluid 
+                and game design documents, roadmaps, or business plans are used more as guides than strict sets of rules.
+                </p>
+                <p class="fn_desc">
+                Any delays in the development, design, or implementation of the following will be communicated to the community as early as possible.
+                </p>
+                <p class="fn_desc">
                 We've created this Roadmap with three primary goals in mind.
+                </p>
+                <p class="fn_desc">
                     <ul>
-                        <li>Raise the bar for NFT projects as businesses. Creating value has to be the future; great art is a healthy baseline. 
-                          This is the standard we have set for ourselves, and hopefully, it translates into a higher level of commitment from the 
-                          projects that are building the future.</li>
-                        <li>Build AAA-quality Web3, P2E video game. All blockchain games don't have to be pixelated cartoons or card games. 
-                          They should be fun, engaging, challenging, and sustainable. We have worked tirelessly to make this a reality by 
-                          building what we think is fun.</li>
-                        <li>Bridge gaming and Web3 in a tangible way and change the way gamers earn in eSports. There is a point on the curve of 
-                          p2e sustainability that we identified as the sweet spot. This involves building a business around the game, and ensuring 
-                          each step of the process is bringing us closer to our fulfilling our goals.</li>
+                        <li>
+                          Build a AAA-quality P2E game that is fun. Our primary goal is to ensure that our community enjoys game play and becomes 
+                          invested in the storyline.
+                        </li>
+                        <li>
+                          Create a game economy that is sustainable over time and ensure that ownership of assets lies with the community, 
+                          not the publisher or the development team.
+                        </li>
+                        <li>
+                          Onboard traditional gamers into Web3 gaming ecosystems and change the way gamers earn through eSports.
+                        </li>
                     </ul>
-                    Having said that, we are building in a fluid environment, and that means we need to be flexible and able to adjust in order to survive. 
-                    This document was created to help us - the core team - focus, and to give holders an idea of what we intend to do. We're excited for the future 
-                    and welcome suggestions surrounding gameplay, onboarding, The Safe House marketplace, or anything else the community thinks is missing from the 
-                    P2E environment. 
+                    Finally, great game design and/or development takes time. However, this doesn’t mean wasteful spending or endless delays with no apparent reason. 
+                    Technical updates will be shared regularly via SubStack; creative updates will be shared via Medium and/or our social media accounts. 
                 </p>
               </div>
               {/* <!-- !Single Description --> */}
