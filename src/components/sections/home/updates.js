@@ -18,7 +18,7 @@ function UpdateSection() {
 				{/* <!-- Moving Blog List Shortcode --> */}
 				<div class="neoh_fn_moving_blog">
 					<ul>
-						<li class="column">
+						<li>
 							<div class="item">
 								{/* <img src="img/landing/twitter.png" alt="" class="moving_img"/> */}
 								<p class="fn_date">
@@ -88,7 +88,7 @@ function UpdateSection() {
 					
 
 					<ul>
-					<li class="doublecolumn">
+					<li>
 					<div class="item">
 								{/* <img src="img/landing/substack.png" alt="" class="moving_img"/> */}
 								
@@ -102,7 +102,7 @@ function UpdateSection() {
 								</h3>
 								<p class="fn_desc_substack" >
 									{/* Asset creation begins, and The Resistance Economy is born. The illustrations for teasers, avatar mint, and marketing begin to get created. */}
-									<iframe class="substack" width="100%" height="420px" style={{backgroundColor: "lightblue"}}
+									<iframe class="substack" width="100%" height="300px" style={{backgroundColor: "lightblue"}}
 									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
 
 									{/* <SubStackBlog /> */}

@@ -19,7 +19,7 @@ function HomeService() {
 				{/* <!-- !Main Title --> */}
 
 				{/* <!-- Services --> */}
-				<div class="neoh_fn_gualist_landing">
+				<div class="neoh_fn_gualist">
                 <ul>
                   <li>
                     <div class="item">

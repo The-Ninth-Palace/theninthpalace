@@ -53,7 +53,7 @@ function HomeAbout() {
 					<div class="img_item">
 						<img src="img/landing/whatareAvatar.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
 					</div>
-					 <div class="content_item_landing">
+					 <div class="content_item">
 						<div class="neoh_fn_title" data-align="left">
 							<h3 class="fn_title">What are the Avatars?</h3>
 							<div class="line"><span></span></div>
