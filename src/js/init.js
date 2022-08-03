@@ -774,18 +774,18 @@ var NeohFilterArray		= [];
 								$(e).css({transform: 'translateX(0px)',opacity: 1});
 							},i*200);
 						});
-					},2000);
+					},20);
 					setTimeout(function(){
 						buttons.addClass('ready');
 						footer.addClass('ready');
-					},2200 + (menuItems.length * 200));
+					},22 + (menuItems.length * 200));
 				}
 				return false;
 			});
 			trigger2.on('click',function(){
 				if(trigger2.hasClass('is-active')){
 					$.each(menuItems, function(i,e){
-						$(e).css({transform: 'translateX('+(i+1)*30+'px)',opacity: 0});
+						$(e).css({transform: 'translateX('+(i+1)*30+'px)',opacity: 0.7});
 					});
 					trigger2.removeClass('is-active');
 					trigger.removeClass('is-active');
@@ -799,7 +799,7 @@ var NeohFilterArray		= [];
 			navOverlay.on('click',function(){
 				if(trigger.hasClass('is-active')){
 					$.each(menuItems, function(i,e){
-						$(e).css({transform: 'translateX('+(i+1)*30+'px)',opacity: 0});
+						$(e).css({transform: 'translateX('+(i+1)*30+'px)',opacity: 0.7});
 					});
 					trigger.removeClass('is-active');
 					trigger2.removeClass('is-active');
@@ -841,10 +841,10 @@ var NeohFilterArray		= [];
 						trigger.removeClass('is-active');
 						navOverlay.removeClass('go');
 						rightNav.removeClass('go');
-					},500);
+					},5);
 					setTimeout(function(){
 						window.open(link.attr('href'), "_self");
-					},1500);
+					},15);
 				}
 				return false;
 			});
