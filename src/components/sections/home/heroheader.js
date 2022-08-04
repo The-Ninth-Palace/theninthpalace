@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import LandingBg from "../../../assest/landing/LandingBg.jpg";
+import Arrow from "../../../assest/svg/right-arr.svg";
 
 function HeroHeader() {
     return (
@@ -64,7 +65,8 @@ function HeroHeader() {
 				
 				<a href="#about" class="neoh_fn_down magic-hover magic-hover__square">
 					<span class="text">Scroll Down</span>
-					<span class="icon"><img src='img/svg/right-arr.svg' alt="" class="fn__svg"/></span>
+					<span class="icon"><img src={Arrow} alt="" class="fn__svg"/></span>
+					{/* <span class="icon"><img src='img/svg/right-arr.svg' alt="" class="fn__svg"/></span> */}
           
 				</a>
 			</div>

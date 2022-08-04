@@ -4944,7 +4944,7 @@ background-image: url('../assest/svg/divider.svg');
 		content: '';
 		position: absolute;
 		width: 2px;
-		height: 15px;
+		height: 18px;
 		background-color: #aaa;
 		left: 50%;
 		margin-left: -1px;
