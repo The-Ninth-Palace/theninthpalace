@@ -1611,7 +1611,7 @@ background-image: url('../assest/svg/divider.svg');
 }
 .neoh_fn_footer .footer_bottom{
 	border-top: 1px solid rgba(255,255,255,.1);
-	padding: 90px 0 48px 38px;
+	padding: 60px 0 48px 38px;
 }
 .neoh_fn_footer .fb_in{
 	display: -webkit-flex;
@@ -4607,6 +4607,12 @@ background-image: url('../assest/svg/divider.svg');
 
 
 /* Responsive */
+/* media screen more than 1500px */
+@media screen and (min-width: 1500px) {
+    .neoh_fn_footer .footer_bottom{
+		padding: 90px 0 38px 38px;
+	}
+}
 @media(max-width: 1500px){
 	.neoh_fn_drops li{
 		width: 50%;
