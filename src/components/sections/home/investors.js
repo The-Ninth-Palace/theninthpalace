@@ -1,5 +1,9 @@
 import React from "react";
 import Dividers from "../../divider";
+import Flame from "../../../assest/landing/flame_logo.png";
+import ETH from "../../../assest/svg/eth-logo-horiz.svg";
+import ImmutableX from "../../../assest/svg/immutableX-logo-horiz.svg";
+import Unity from "../../../assest/svg/unity-logo-horiz.svg";
 
 function Investors() {
     return (
@@ -22,25 +26,29 @@ function Investors() {
 					<ul>
 						<li>
 							<div class="item">
-								<img src="img/landing/flame_logo.png" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								<img src={Flame} alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								{/* <img src="img/landing/flame_logo.png" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/> */}
 								{/* <a href="#" class="full_link"></a> */}
 							</div>
 						</li>
 						<li>
 							<div class="item">
-								<img src="img/svg/eth-logo-horiz.svg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								<img src={ETH} alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								{/* <img src="img/svg/eth-logo-horiz.svg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/> */}
 								{/* <a href="#" class="full_link"></a> */}
 							</div>
 						</li>
 						<li>
 							<div class="item">
-								<img src="img/svg/immutableX-logo-horiz.svg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								<img src={ImmutableX} alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								{/* <img src="img/svg/immutableX-logo-horiz.svg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/> */}
 								{/* <a href="#" class="full_link"></a> */}
 							</div>
 						</li>
 						<li>
 							<div class="item">
-								<img src="img/svg/unity-logo-horiz.svg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								<img src={Unity} alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/>
+								{/* <img src="img/svg/unity-logo-horiz.svg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace "/> */}
 								{/* <a href="#" class="full_link"></a> */}
 							</div>
 						</li>

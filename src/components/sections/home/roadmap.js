@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Roadmap1 from "../../../assest/landing/roadmap1.jpg";
+import Roadmap2 from "../../../assest/landing/roadmap2a.jpg";
+import Roadmap3 from "../../../assest/landing/roadmap3a.png";
+import Roadmap4 from "../../../assest/landing/roadmap4.jpg";
+import Roadmap5 from "../../../assest/landing/roadmap5.png";
 
 function HomeRoadmap() {
   return (
@@ -24,7 +29,8 @@ function HomeRoadmap() {
                   <div class="t_item">
                     <div class="t_item_img">
                     <div class="img_item">
-                      <img src="img/landing/roadmap1.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+                      <img src={Roadmap1} alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+                      {/* <img src="img/landing/roadmap1.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " /> */}
                     </div>
                       {/*<div class="neoh_fn_gallery_1_2">
                          <div class="gallery_in">                        
@@ -61,7 +67,8 @@ function HomeRoadmap() {
                   <div class="t_item">
                     <div class="t_item_img">
                     <div class="img_item">
-                      <img src="img/landing/roadmap2a.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+                      <img src={Roadmap2} alt="The Ninth Palace NFT Icon " title="The Ninth Palace " />
+                      {/* <img src="img/landing/roadmap2a.jpg" alt="The Ninth Palace NFT Icon " title="The Ninth Palace " /> */}
                     </div>
                       {/*<div class="neoh_fn_gallery_1_2">
                          <div class="gallery_in">
@@ -98,7 +105,8 @@ function HomeRoadmap() {
                   <div class="t_item">
                     <div class="t_item_img">
                     <div class="img_item">
-                      <img src="img/landing/roadmap3a.png" alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " />
+                    <img src={Roadmap3} alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " />
+                      {/* <img src="img/landing/roadmap3a.png" alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " /> */}
                     </div>
                       {/*<div class="neoh_fn_gallery_1_2">
                         <div class="gallery_in">
@@ -135,7 +143,8 @@ function HomeRoadmap() {
                   <div class="t_item">
                     <div class="t_item_img">
                     <div class="img_item">
-                      <img src="img/landing/roadmap4.jpg" alt="The Ninth Palace Game Icon " title="The Ninth Palace Game " />
+                      <img src={Roadmap4} alt="The Ninth Palace Game Icon " title="The Ninth Palace Game " />
+                      {/* <img src="img/landing/roadmap4.jpg" alt="The Ninth Palace Game Icon " title="The Ninth Palace Game " /> */}
                     </div>
                       {/*<div class="neoh_fn_gallery_1_2">
                          <div class="gallery_in">
@@ -171,7 +180,8 @@ function HomeRoadmap() {
                   <div class="t_item">
                     <div class="t_item_img">
                     <div class="img_item">
-                      <img src="img/landing/roadmap5.png" alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " />
+                      <img src={Roadmap5} alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " />
+                      {/* <img src="img/landing/roadmap5.png" alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " /> */}
                     </div>
                       {/*<div class="neoh_fn_gallery_1_2">
                         <div class="gallery_in">

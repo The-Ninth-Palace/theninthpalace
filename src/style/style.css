@@ -1545,7 +1545,7 @@ a.full_link{
 }
 .neoh_fn_footer{
 	background-color: var(--sbc);
-background-image: url('../../public/img/svg/divider.svg');
+background-image: url('../assest/svg/divider.svg');
 	background-repeat: no-repeat;
 }
 .neoh_fn_footer .footer_top{
@@ -1611,7 +1611,7 @@ background-image: url('../../public/img/svg/divider.svg');
 }
 .neoh_fn_footer .footer_bottom{
 	border-top: 1px solid rgba(255,255,255,.1);
-	padding: 60px 0 38px;
+	padding: 90px 0 48px 38px;
 }
 .neoh_fn_footer .fb_in{
 	display: -webkit-flex;
@@ -2470,8 +2470,8 @@ background-image: url('../../public/img/svg/divider.svg');
 	list-style-type: none;
 }
 .neoh_fn_gualist li{
-	/*width: 33.3333%;*/
-	width: 25%;
+	width: 33.3333%;
+	/* width: 25%; */
 	padding-left: 40px;
 	margin-bottom: 40px;
 }
@@ -2541,6 +2541,103 @@ background-image: url('../../public/img/svg/divider.svg');
 	border-right-color: var(--mc);
 }
 .neoh_fn_gualist .item:hover .line:after{
+	border-top-color: var(--mc);
+}
+
+/* Landing Page*/
+/* Guarantee List */
+.neoh_fn_gualist_landing{
+	margin-bottom: 105px;
+}
+.neoh_fn_gualist_landing ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	margin-left: -45px;
+	list-style-type: none;
+}
+.neoh_fn_gualist_landing li{
+	/*width: 33.3333%;*/
+	width: 25%;
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+.neoh_fn_gualist_landing .item{
+	width: 100%;
+	border: 2px solid var(--extra-color);
+	border-radius: 5px;
+	padding: 50px 40px 52px;
+	position: relative;
+	text-align: center;
+	height: 100%;
+    transition: all .3s ease;
+}
+.neoh_fn_gualist_landing .fn__svg{
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	color: var(--extra-color);
+	margin-bottom: 18px;
+}
+.neoh_fn_gualist_landing .fn_title{
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 18px;
+}
+.neoh_fn_gualist_landing .line{
+	display: block;
+	width: 150px;
+	height: 10px;
+	position: absolute;
+	background-color: #252525;
+	top: 0;
+	left: 50%;
+	margin-left: -75px;
+    transition: all .3s ease;
+}
+.neoh_fn_gualist_landing .line:before,
+.neoh_fn_gualist_landing .line:after{
+	content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+    transition: all .3s ease;
+	top: 0;
+}
+.neoh_fn_gualist_landing .line:before{
+	border-width: 0 10px 10px 0;
+	border-right-color: #252525;
+	right: 100%;
+}
+.neoh_fn_gualist_landing .line:after{
+	border-width: 10px 10px 0 0;
+	border-top-color: #252525;
+	left: 100%;
+}
+.neoh_fn_gualist_landing .item:hover{
+	border-color: var(--mc);
+}
+.neoh_fn_gualist_landing .item:hover .line{
+	background-color: var(--mc);
+}
+.neoh_fn_gualist_landing .item:hover .line:before{
+	border-right-color: var(--mc);
+}
+.neoh_fn_gualist_landing .item:hover .line:after{
 	border-top-color: var(--mc);
 }
 
@@ -4623,6 +4720,9 @@ background-image: url('../../public/img/svg/divider.svg');
 	.neoh_fn_nav .nav_menu li{
 		margin-bottom: 20px;
 	}
+	.neoh_fn_gualist_landing li{
+		width: 50%;
+	}
 	/*about*/
 	#information{
 		padding: 100px 0;
@@ -4798,6 +4898,9 @@ background-image: url('../../public/img/svg/divider.svg');
 	.neoh_fn_modal{
 		padding: 20px;
 	}
+	.neoh_fn_gualist_landing li{
+		width: 100%;
+	}
 	/*about*/
 	.neoh_fn_gualist li,
 	.neoh_fn_team .team_item{
@@ -4827,6 +4930,27 @@ background-image: url('../../public/img/svg/divider.svg');
 	.neoh_fn_moving_blog li{flex: none;}
 	.neoh_fn_services li:nth-of-type(2n+1){margin-top: 0;}
 	.neoh_fn_title .fn_title{font-size: 26px;}
+	.neoh_fn_footer .footer_bottom{
+		padding: 20px 0 38px 5px;
+	}
+	.neoh_fn_totop{
+		width: 40px;
+		height: 40px;
+	}
+	.neoh_fn_totop .arrow{
+		top: 6px;
+	}
+	.neoh_fn_totop .arrow:after{
+		content: '';
+		position: absolute;
+		width: 2px;
+		height: 15px;
+		background-color: #aaa;
+		left: 50%;
+		margin-left: -1px;
+		transition: all .3s ease;
+		top: 7px;
+	}
 }
 @media(max-width: 480px){
 	.neoh_fn_investor li{width: 100%;}

@@ -1,4 +1,5 @@
 import React from "react";
+import TeamBg from "../../../assest/landing/teams-bg.jpg";
 
 function ContactHero() {
     return (
@@ -7,7 +8,8 @@ function ContactHero() {
     <div class="neoh_fn_pagetitle">
 			<div class="bg_overlay">
 				<div class="bg_color"></div>
-				<div class="bg_image" data-bg-img="img/landing/teams-bg1.jpg"></div>
+				<div class="bg_image" data-bg-img={TeamBg}></div>
+				{/* <div class="bg_image" data-bg-img="img/landing/teams-bg1.jpg"></div> */}
 			</div>
 			<div class="pt_content">
 				<div class="container">

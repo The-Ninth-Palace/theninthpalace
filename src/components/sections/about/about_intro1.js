@@ -1,11 +1,14 @@
 import React from "react";
+import OnePrelude from "../../../assest/landing/OnePrelude.jpg";
+import TheFive from "../../../assest/landing/about-TheFive.jpg";
 
 function AboutIntro1() {
   return (
     <>
       <div class="neoh_fn_about_item">
         <div class="img_item">
-          <img src="img/landing/OnePrelude.jpg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
+          <img src={OnePrelude} alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
+          {/* <img src="img/landing/OnePrelude.jpg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " /> */}
         </div>
         <div class="content_item">
           <div class="neoh_fn_title" data-align="left">
@@ -49,7 +52,8 @@ function AboutIntro1() {
       </div>
       <div class="neoh_fn_about_item reverse">
                 <div class="img_item">
-                  <img src="img/landing/about-TheFive.jpg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
+                  <img src={TheFive} alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
+                  {/* <img src="img/landing/about-TheFive.jpg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " /> */}
                 </div>
                 <div class="content_item">
                   <div class="neoh_fn_title" data-align="left">

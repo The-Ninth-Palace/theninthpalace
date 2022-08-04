@@ -1,5 +1,9 @@
 import React from "react";
 import Dividers from "../../divider";
+import Technology from "../../../assest/svg/tech-icon.svg";
+import Quality from "../../../assest/svg/good-quality-icon.svg";
+import Time from "../../../assest/svg/time-management-icon.svg";
+import Bussiness from "../../../assest/svg/trade-icon.svg";
 
 function HomeService() {
     return (
@@ -19,12 +23,13 @@ function HomeService() {
 				{/* <!-- !Main Title --> */}
 
 				{/* <!-- Services --> */}
-				<div class="neoh_fn_gualist">
+				<div class="neoh_fn_gualist_landing">
                 <ul>
                   <li>
                     <div class="item">
                       <span class="line"></span>
-                      <img src="img/svg/tech-icon.svg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " class="fn__svg" />
+                      <img src={Technology} alt="The Ninth Palace NFT Icon" title="The Ninth Palace " class="fn__svg" />
+					  {/* <img src="img/svg/tech-icon.svg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " class="fn__svg" /> */}
                       <h3 class="fn_title">Technology</h3>
                       	<p class="fn_desc">
 							&#8226; 
@@ -45,7 +50,8 @@ function HomeService() {
 				  <li>
                     <div class="item">
                       <span class="line"></span>
-                      <img src="img/svg/good-quality-icon.svg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " class="fn__svg" />
+					  <img src={Quality} alt="The Ninth Palace NFT Icon" title="The Ninth Palace " class="fn__svg" />
+                      {/* <img src="img/svg/good-quality-icon.svg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " class="fn__svg" /> */}
                       <h3 class="fn_title">Quality</h3>
                       	<p class="fn_desc">
 						    &#8226;
@@ -69,7 +75,8 @@ function HomeService() {
                   <li>
                     <div class="item">
                       <span class="line"></span>
-                      <img src="img/svg/time-management-icon.svg" alt="The Ninth Palace Game Icon" title="The Ninth Palace Game " class="fn__svg" />
+                      <img src={Time} alt="The Ninth Palace Game Icon" title="The Ninth Palace Game " class="fn__svg" />
+					  {/* <img src="img/svg/time-management-icon.svg" alt="The Ninth Palace Game Icon" title="The Ninth Palace Game " class="fn__svg" /> */}
                       <h3 class="fn_title">Time</h3>
                       <p class="fn_desc">
 					  	&#8226;
@@ -87,7 +94,8 @@ function HomeService() {
                   <li>
                     <div class="item">
                       <span class="line"></span>
-                      <img src="img/svg/trade-icon.svg" alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " class="fn__svg" />
+					  <img src={Bussiness} alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " class="fn__svg" />
+                      {/* <img src="img/svg/trade-icon.svg" alt="The Ninth Palace P2E Icon " title="The Ninth Palace Play to Earn " class="fn__svg" /> */}
                       <h3 class="fn_title">Business</h3>
                       <p class="fn_desc">
 					  	&#8226;

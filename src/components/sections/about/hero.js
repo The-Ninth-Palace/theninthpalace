@@ -1,5 +1,6 @@
 import React from "react";
 // import AboutBg from "../../../pages/bg.jpg";
+import AboutBg from "../../../assest/landing/about-bg.jpg";
 
 function AboutHero() {
   // console.log(process.env.PUBLIC_URL+ "/img/about/bg.jpg");
@@ -10,10 +11,8 @@ function AboutHero() {
     <div class="neoh_fn_pagetitle">
           <div class="bg_overlay">
             <div class="bg_color"></div>
-            {/* <div class="bg_image" data-bg-img="/img/about/bg.jpg"></div> src={`/${aboutBg}`} "img/svg/AboutImages/AboutBackgroundImage.svg"*/}
-            {/* <div class="bg_image" data-bg-img="img/about/bg.jpg"> */}
-            {/* <img class="bg_image" src="img/about/bg.jpg"  alt="The Ninth Palace NFT Icon " title="The Ninth Palace " /> */}
-            <div class="bg_image" data-bg-img="img/landing/about-bg.jpg">
+            {/* <div class="bg_image" data-bg-img="img/landing/about-bg.jpg"> */}
+            <div class="bg_image" data-bg-img={AboutBg}>
             </div>
           </div>
           <div class="pt_content">

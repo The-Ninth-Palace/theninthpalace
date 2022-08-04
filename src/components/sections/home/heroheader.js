@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import LandingBg from "../../../assest/landing/LandingBg.jpg";
 
 function HeroHeader() {
     return (
@@ -14,7 +15,8 @@ function HeroHeader() {
 				{/* <!-- !Overlay Color --> */}
 				
 				{/* <!-- Overlay Image --> */}
-				<div class="bg_image" data-bg-img="img/landing/LandingBg.jpg"></div>
+				<div class="bg_image" data-bg-img={LandingBg}></div>
+				{/* <div class="bg_image" data-bg-img="img/landing/LandingBg.jpg"></div> */}
 				{/* <div class="bg_image" data-bg-img="img/svg/LandingImages/LandingBackground.svg"></div> */}
 				{/* <!-- !Overlay Image --> */}
 				
