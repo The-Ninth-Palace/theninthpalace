@@ -87,11 +87,9 @@ function UpdateSection() {
 					</ul>
 					
 
-					<ul>
+					{/* <ul>
 					<li>
-					<div class="item">
-								{/* <img src="img/landing/substack.png" alt="" class="moving_img"/> */}
-								
+					<div class="item">								
 								<p class="fn_date">
 									<span>SubStack</span>
 								</p>
@@ -101,16 +99,13 @@ function UpdateSection() {
 									</a>
 								</h3>
 								<p class="fn_desc_substack" >
-									{/* Asset creation begins, and The Resistance Economy is born. The illustrations for teasers, avatar mint, and marketing begin to get created. */}
-									<iframe class="substack" width="100%" height="300px" style={{backgroundColor: "lightblue"}}
-									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
-
-									{/* <SubStackBlog /> */}
 									
+									<iframe class="substack" width="100%" height="300px"
+									src="https://theninthpalace.substack.com/embed" frameborder="1" scrolling="no"></iframe>
 								</p>
 							</div>
 						</li>
-					</ul>
+					</ul> */}
 				</div>
 				{/* <!-- !Moving Blog List Shortcode --> */}
 				
