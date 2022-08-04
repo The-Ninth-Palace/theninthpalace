@@ -156,8 +156,8 @@ function RoadmapPage() {
                       <p class="fn_desc">
                         <ul>
                           <li>
-                              dApp/Marketplace Development: Release “The Safe House” - an environment to level-up avatars, swap outfits/skins, 
-                              and buy/sell/trade weapons, equipment, or tools to complete missions - Beta version to Resistance members only.
+                            dApp/Marketplace Development: Release “The Safe House” - an environment to level-up avatars, 
+                            swap outfits/skins, and buy/sell/trade weapons, equipment, or tools to complete missions - live version.
                           </li>
                           <li>Release The Resistance Economy ($SIGNA)</li>
                           <li>Launch the mobile game; Campaign Mode. (The Ninth Place: Hunted for Love)</li>
