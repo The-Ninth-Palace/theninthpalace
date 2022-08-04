@@ -774,11 +774,11 @@ var NeohFilterArray		= [];
 								$(e).css({transform: 'translateX(0px)',opacity: 1});
 							},i*200);
 						});
-					},2000);
+					},100);
 					setTimeout(function(){
 						buttons.addClass('ready');
 						footer.addClass('ready');
-					},2200 + (menuItems.length * 200));
+					},120 + (menuItems.length * 50));
 				}
 				return false;
 			});
@@ -841,10 +841,10 @@ var NeohFilterArray		= [];
 						trigger.removeClass('is-active');
 						navOverlay.removeClass('go');
 						rightNav.removeClass('go');
-					},500);
+					},50);
 					setTimeout(function(){
 						window.open(link.attr('href'), "_self");
-					},1500);
+					},150);
 				}
 				return false;
 			});

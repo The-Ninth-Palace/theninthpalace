@@ -57,8 +57,8 @@ body{
 .nav_right_fn__svg{
 	fill: currentcolor;
 	/* fill: #ECEBDF; */
-	width: 18px;
-	height: 18px;
+	width: 24px;
+	height: 24px;
 	opacity: 1;
 	margin-top: 10px;
 }
@@ -1033,7 +1033,7 @@ a.full_link{
 /*	padding: 0 var(--gap);*/
 	
 	display: grid;
-	grid-template-columns: 2.1fr 1fr;
+	grid-template-columns: 2.1fr 0.1fr;
 	grid-column-gap: var(--gap);
    	grid-row-gap: var(--gap);
 }
@@ -1055,7 +1055,6 @@ a.full_link{
 .neoh_fn_gallery_1_2 .item:hover img{
 	transform: scale(1.1) rotate(-5deg) translateZ(0);
 }
-
 
 
 /* Timeline */
@@ -1115,6 +1114,15 @@ a.full_link{
 }
 .neoh_fn_timeline .t_item_img{
 	width: 50%;
+}
+.neoh_fn_timeline .t_item_img img{
+	object-fit: cover;
+	transition: all 0.8s ease;
+	transform: translateZ(0);
+}
+.neoh_fn_timeline .t_item_img:hover img{
+	transition: all 0.8s ease;
+	transform: scale(1.1) rotate(5deg) translateZ(0);
 }
 .neoh_fn_timeline .t_item_info{
 	width: 50%;
@@ -1736,8 +1744,8 @@ background-image: url('../../public/img/svg/divider.svg');
 .neoh_fn_nav{
 	position: fixed;
 	height: 100vh;
-	width: 35%;
-	min-width: 30%;
+	width: 40%;
+	min-width: 35%;
 	z-index: 999;
 	background-color: #111;
 	right: 0;
@@ -1965,7 +1973,7 @@ background-image: url('../../public/img/svg/divider.svg');
 	position: fixed;
 	width: 100%;
 	z-index: 100;
-	background-color: rgba(0, 0, 0, 0.8);
+	background-color: rgba(0, 0, 0, 0.6);
 	top: 0;
 	left: 0;
 	transition: all .2s .1s cubic-bezier(0.02, 0.19, 0, 0.96);
@@ -4438,6 +4446,15 @@ background-image: url('../../public/img/svg/divider.svg');
 }
 .neoh_fn_roadmaplist .t_item_img{
 	width: 50%;
+}
+.neoh_fn_roadmaplist .t_item_img img{
+	object-fit: cover;
+	transition: all 0.8s ease;
+	transform: translateZ(0);
+}
+.neoh_fn_roadmaplist .t_item_img:hover img{
+	transition: all 0.8s ease;
+	transform: scale(1.1) rotate(5deg) translateZ(0);
 }
 .neoh_fn_roadmaplist .t_item_info{
 	width: 50%;

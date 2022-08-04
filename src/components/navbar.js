@@ -56,7 +56,7 @@ function Navbar() {
 			{/* <div class="nf_left">
 				<p>Copyright: CC0; Design: Frenify; Development: Jin </p>
 			</div> */}
-			<div class="nf_right">
+			<div class="nf_left">
 				<SocialListFooter />
 			</div>
 		</div>
