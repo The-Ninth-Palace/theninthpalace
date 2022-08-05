@@ -754,6 +754,9 @@ a.full_link{
 .neoh_fn_button.only_text{
 	padding: 0 28px;
 }
+.neoh_fn_button.only_button{
+	padding: 20px;
+}
 .neoh_fn_button.full{
 	width: 100%;
 	line-height: 66px;
@@ -786,6 +789,19 @@ a.full_link{
 	top: -2px;
 	position: absolute;
 	z-index: 3;
+	transition: all .3s ease;
+}
+.neoh_fn_button .button{
+	display: block;
+	position: absolute;
+	left: 8px;
+	top: 50%;
+	margin-top: -11px;
+}
+.neoh_fn_button .button:after{
+	transition: all .3s ease;
+}
+.neoh_fn_button .button:before{
 	transition: all .3s ease;
 }
 .neoh_fn_button .fn__svg{
