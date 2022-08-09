@@ -1,6 +1,6 @@
 import React from "react";
-import OnePrelude from "../../../assest/landing/OnePrelude.jpg";
-import TheFive from "../../../assest/landing/about-TheFive.jpg";
+import OnePrelude from "../../../assest/landing/OnePrelude.webp";
+import TheFive from "../../../assest/landing/about-TheFive.webp";
 
 function AboutIntro1() {
   return (

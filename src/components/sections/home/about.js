@@ -1,8 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 // import PlaySound from "../../sound";
-import InceptionCollection from "../../../assest/landing/InceptionCollection.jpg";
-import WhatareAvatar from "../../../assest/landing/whatareAvatar.jpg";
+import InceptionCollection from "../../../assest/landing/InceptionCollection.webp";
+import WhatareAvatar from "../../../assest/landing/whatareAvatar.webp";
+// import AudioPlayer from "../../musicplayer/audioplayer";
 
 function HomeAbout() {
     return (
@@ -25,6 +26,7 @@ function HomeAbout() {
 						
 						<div class="desc">
 							{/* <PlaySound/> */}
+							{/* <AudioPlayer /> */}
 							<p>
 								The Resistance Collection is the first collection for The Ninth Palace. The Resistance is, at present, a loose collective of 10,007 rogue soldiers 
 								and civilians committed to taking down the Modgnik Detinu government.  

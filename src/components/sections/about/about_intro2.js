@@ -1,5 +1,5 @@
 import React from "react";
-import CampaignVMultiplayer from "../../../assest/landing/about-CampaignVMultiplayer.jpg";
+import CampaignVMultiplayer from "../../../assest/landing/about-CampaignVMultiplayer.webp";
 
 function AboutIntro2() {
     return (

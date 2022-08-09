@@ -1,5 +1,5 @@
 import React from "react";
-import TeamBg from "../../../assest/landing/teams-bg.jpg";
+import TeamBg from "../../../assest/landing/teams-bg.webp";
 
 function ContactHero() {
     return (

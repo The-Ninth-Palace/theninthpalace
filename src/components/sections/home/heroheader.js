@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import LandingBg from "../../../assest/landing/LandingBg.jpg";
+import LandingBg from "../../../assest/landing/LandingBg.webp";
 import Arrow from "../../../assest/svg/right-arr.svg";
 
 function HeroHeader() {

@@ -1,6 +1,6 @@
 import React from "react";
 import Dividers from "../../divider";
-import Flame from "../../../assest/landing/flame_logo.png";
+import Flame from "../../../assest/landing/flame_logo.webp";
 import ETH from "../../../assest/svg/eth-logo-horiz.svg";
 import ImmutableX from "../../../assest/svg/immutableX-logo-horiz.svg";
 import Unity from "../../../assest/svg/unity-logo-horiz.svg";

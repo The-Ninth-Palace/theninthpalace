@@ -1,5 +1,5 @@
 import React from "react";
-import SPBg from "../../../assest/landing/protocol-Bg.jpg";
+import SPBg from "../../../assest/landing/protocol-Bg.webp";
 
 function RoadmapHero() {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
 // import AboutBg from "../../../pages/bg.jpg";
-import AboutBg from "../../../assest/landing/about-bg.jpg";
+import AboutBg from "../../../assest/landing/about-bg.webp";
 
 function AboutHero() {
   // console.log(process.env.PUBLIC_URL+ "/img/about/bg.jpg");
