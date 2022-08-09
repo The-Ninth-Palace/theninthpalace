@@ -5,7 +5,7 @@ import Roadmap2 from "../../../assest/landing/roadmap2a.jpg";
 import Roadmap3 from "../../../assest/landing/roadmap3a.png";
 import Roadmap4 from "../../../assest/landing/roadmap4.jpg";
 import Roadmap5 from "../../../assest/landing/roadmap5.png";
-
+import RightArrow from "../../../assest/svg/right-arr.svg";
 function HomeRoadmap() {
   return (
     <>
@@ -223,10 +223,10 @@ function HomeRoadmap() {
             <div class="timeline_progress">
               {/* <!-- Nav --> */}
               <a href="#" class="nav_prev">
-                <img src="img/svg/right-arr.svg" alt="" class="fn__svg" />
+                <img src={RightArrow} alt="" class="fn__svg" />
               </a>
               <a href="#" class="nav_next">
-                <img src="img/svg/right-arr.svg" alt="" class="fn__svg" />
+                <img src={RightArrow} alt="" class="fn__svg" />
               </a>
               {/* <!-- !Nav --> */}
 
