@@ -1,7 +1,26 @@
 import React from "react";
 import { motion } from "framer-motion";
 import LandingBg from "../../../assest/landing/LandingBg.webp";
+import bgImageTwo from '../../../assest/landing/bgimage2.jpeg'
+import bgImageThree from '../../../assest/landing/bgimage3.jpeg'
+import bgImageFour from '../../../assest/landing/bgimage4.jpeg'
 import Arrow from "../../../assest/svg/right-arr.svg";
+import "swiper/css/bundle";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y,Autoplay } from 'swiper';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+
+// function imgUrl(){
+// 	const id= rand(1, 200)
+// 	return 
+// }
+
+
 
 function HeroHeader() {
     return (
@@ -16,7 +35,21 @@ function HeroHeader() {
 				{/* <!-- !Overlay Color --> */}
 				
 				{/* <!-- Overlay Image --> */}
-				<div class="bg_image" data-bg-img={LandingBg}></div>
+				<Swiper
+				// style={{zIndex:300}}
+				modules={[Pagination,Scrollbar,A11y,Autoplay]} className="mySwiper"
+				// spaceBetween={50}
+				autoplay={true}
+				slidesPerView={1}
+				onSlideChange={() => console.log('slide change')}
+				onSwiper={(swiper) => console.log(swiper)}
+				>
+					<SwiperSlide><div class="bg_image" data-bg-img={LandingBg}></div></SwiperSlide>
+					<SwiperSlide><div class="bg_image" data-bg-img={bgImageTwo}></div></SwiperSlide>
+					<SwiperSlide><div class="bg_image" data-bg-img={bgImageThree}></div></SwiperSlide>
+					<SwiperSlide><div class="bg_image" data-bg-img={bgImageFour}></div></SwiperSlide>
+				</Swiper>
+				{/* <div class="bg_image" data-bg-img={LandingBg}></div> */}
 				{/* <div class="bg_image" data-bg-img="img/landing/LandingBg.jpg"></div> */}
 				{/* <div class="bg_image" data-bg-img="img/svg/LandingImages/LandingBackground.svg"></div> */}
 				{/* <!-- !Overlay Image --> */}
@@ -28,10 +61,12 @@ function HeroHeader() {
 				<div class="container">
 					<motion.div initial={{ x: -300 }} animate={{ x: 0 }} transition={{ ease: "easeInOut", duration: 2, type: 'tween' }} class="content">
 						<motion.h2 initial={{ opacity: 0 }} transition={{duration:1, delay:0}} whileInView={{ opacity: 1 }} viewport={{ once: true }}
-						class="fn_title fn_animated_text" title="Ninth Palace" data-wait="50" data-speed="8" >The Ninth Palace</motion.h2>
+						class="fn_title fn_animated_text title_hero_new" title="Ninth Palace" data-wait="50" data-speed="8" >The Ninth Palace</motion.h2>
 						 {/* class="fn_title fn_animated_text" title="Ninth Palace" data-wait="1000" data-speed="8">The Ninth Palace</motion.h2> */}
 
-						<p class="fn_desc fn_animated_text" data-wait="1500" data-speed="5"><b>Join The Resistance</b></p>
+						<p class="fn_desc fn_animated_text" data-wait="1500" data-speed="5"
+						style={{color:'white',opacity:'1',textShadow:'none',zIndex:'1000000'}}
+						><b >Join The Resistance</b></p>
 						
 					</motion.div>
 					

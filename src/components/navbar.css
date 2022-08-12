@@ -1,0 +1,17 @@
+.nav_menu .connect_wallet{
+    z-index: 2000;
+	color:white;
+	width: 200px;
+	font-weight: 700;
+	border: 2px solid white;
+	padding:10px;
+	display: flex;
+	font-size: 1.0em;
+	justify-content:center;
+	align-items: center;
+	cursor: pointer;
+    margin-top: 30px;
+}
+.nav_menu .connect_wallet:hover{
+	border: 2px solid var(--mc);
+}

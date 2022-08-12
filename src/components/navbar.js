@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import SocialListFooter from "./sociallistfooter";
+import './header.css'
+import './navbar.css'
 
 function Navbar() {
  return (
@@ -9,7 +11,7 @@ function Navbar() {
 	<div class="nav_overlay"></div>
 	<div class="neoh_fn_nav">
 		<div class="trigger is-active">
-			<div class="trigger_in">
+			<div class="trigger_in close_menu_new">
 				<span class="text">Close</span>
 				<span class="hamb">
 					<span class="hamb_a"></span>
@@ -26,8 +28,13 @@ function Navbar() {
 					<li class="menu-item"><Link to="/about">About</Link></li>
 					<li class="menu-item"><Link to="/roadmap">Securus Protocol</Link></li>
 					{/* <li class="menu-item"><Link to="/#">Mint</Link></li> */}
-					<li class="menu-item"><Link to="/teams">Team</Link></li>
+					<li class="menu-item"
+					style={{cursor:'pointer',display:'inline-block'}}
+					><a href="https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace">Nuclino</a></li>
 				</ul>
+				<div className='connect_wallet'>
+					CONNECT WALLET
+				</div>
 			</div>
 			<div class="nav_buttons">
 				{/* <a href="https://opensea.io/" class="neoh_fn_button only_button" target="_blank">

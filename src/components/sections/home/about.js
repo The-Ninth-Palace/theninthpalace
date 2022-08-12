@@ -43,9 +43,11 @@ function HomeAbout() {
 							</p>
 						</div>
 
-						<div class="buttons">
-							<Link to="/about" class="neoh_fn_button only_text">
-								<span class="text">More About US</span>
+						<div className='about_home_new'>
+							<Link 
+							style={{textDecoration:'none',color:'white'}}
+							to="/about">
+								<span className='btn_new'>Read More</span>
 								{/* <span class="button">
 									<svg class="fn__svg" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 29.96"><title>3-horizontal-dots</title><path class="cls-1" d="M0,15A15,15,0,1,1,15,30,15,15,0,0,1,0,15Zm92.93,0a15,15,0,1,1,15,15,15,15,0,0,1-15-15ZM46.46,15a15,15,0,1,1,15,15,15,15,0,0,1-15-15Z"/></svg>
 								</span> */}

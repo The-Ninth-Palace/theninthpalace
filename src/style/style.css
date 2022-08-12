@@ -46,6 +46,7 @@ body{
 	position: relative;
 	word-break: break-word;
 	background-color: var(--sbc);
+	text-shadow:0 0 2px #fff;
 }
 .fn__svg{
 	fill: currentcolor;
@@ -156,7 +157,12 @@ a.full_link{
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+
+
+
+
 .bg_overlay .bg_color{
+	/* background-color: transparent; */
 	z-index: 2;
 }
 [class*="mw_"]{
@@ -207,6 +213,7 @@ a.full_link{
 	padding: 20px 0;
 }
 .neoh_fn_header .header_in{
+	/* border:1px solid red; */
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -215,6 +222,25 @@ a.full_link{
 	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
+	font-size: 1.1em;
+	font-weight: 700;
+}
+.neoh_fn_header .connect_wallet{
+	/* margin-left:260px; */
+	z-index: 2000;
+	color:white;
+	width: 200px;
+	font-weight: 700;
+	border: 2px solid white;
+	padding:10px;
+	display: flex;
+	font-size: 0.8em;
+	justify-content:center;
+	align-items: center;
+	cursor: pointer;
+}
+.neoh_fn_header .connect_wallet:hover{
+	border: 2px solid var(--mc);
 }
 .neoh_fn_header .header_in .logo{
 	width: 100px;
@@ -242,6 +268,7 @@ a.full_link{
 	-webkit-user-select: none;
 	-ms-user-select: none;
 	transition: all .1s ease;
+	display: none;
 }
 .trigger.is-active,
 .trigger:hover .trigger_in{
@@ -347,7 +374,7 @@ a.full_link{
 	z-index: 10;
 }
 .neoh_fn_hero .bg_color{
-	background-color: rgba(0,0,0,0.55);
+	background-color: rgba(0,0,0,0.7);
 }
 
 
@@ -371,6 +398,7 @@ a.full_link{
 .neoh_fn_hero .hero_content{
 	position: relative;
 	z-index: 15;
+	color:white;
 	height: 100%;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -399,7 +427,10 @@ a.full_link{
     font-weight: normal;
     font-style: normal;
 }
+
+
 .neoh_fn_hero .fn_title{
+	color:#fff;
 	max-width: 620px;
 	margin: 0 auto;
 	padding: 0;
@@ -414,6 +445,28 @@ a.full_link{
 	position: relative;
 	left: 0px;  /* because of letter spacing, if you change letter spacing, don't forget to change its value also */
 }
+
+.title_hero_new{
+	color: #fff;
+	/* z-index: 200000000000; */
+	animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+	{
+		text-shadow: none;
+	}
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,100%
+	{
+		text-shadow:0 0 10px #fff;
+	}
+}
+/* .title_hero_new:hover{
+	/* font-size:40em 
+	color: #fff;
+	text-shadow: 0 0 10px #fff;
+}*/
 .neoh_fn_hero .fn_desc{
 	padding: 0;
 	font-size: 24px;
@@ -4708,6 +4761,7 @@ background-image: url('../assest/svg/divider.svg');
 	.neoh_fn_timeline .t_item_info,.neoh_fn_roadmaplist .t_item_info{
 		width: 60%;
 		padding-left: 50px;
+		padding-bottom: 50px;
 	}
 	.neoh_fn_timeline .t_item_img,.neoh_fn_roadmaplist .t_item_img{
 		width: 40%;
@@ -5009,3 +5063,51 @@ background-image: url('../assest/svg/divider.svg');
 		padding: 15px;
 	}
 }
+.btn_new{
+	text-decoration:none;
+	padding: 20px 50px;
+	font-size:1.1rem;
+	position:absolute;
+	/* margin:32px; */
+	color:white;
+	margin-top: -10px;
+}
+.btn_new::after, .btn_new::before{
+	border:1px solid white;
+	content:'';
+	position:absolute;
+	width: calc(100% - 6px);
+	height: calc(100% - 6px);
+	left:0;
+	bottom:0;
+	/* z-index: -1; */
+	transition: transform 0.3s ease;
+}
+
+.btn_new:hover::after{
+	transform:translate(-5px, -5px);
+	border:1px solid #78f701;
+	text-shadow:0px 0px 15px white
+}
+.btn_new:hover::before{
+	transform:translate(5px, 5px);
+	border:1px solid #78f701;
+	text-shadow:0px 0px 15px white;
+}
+
+@media screen and (max-width:1000px) {
+	.neoh_fn_about_item{
+		margin-bottom: 150px;
+	}
+}
+.swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
