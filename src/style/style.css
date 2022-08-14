@@ -48,6 +48,25 @@ body{
 	background-color: var(--sbc);
 	text-shadow:0 0 2px #fff;
 }
+/* html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  } 
+*/
+
+@media only screen and (max-width:600px) {
+  html,body{
+    /* width: 100%;
+    height: 100%; */
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
 .fn__svg{
 	fill: currentcolor;
 	/* fill: #ECEBDF; */
@@ -63,13 +82,16 @@ body{
 	opacity: 1;
 	margin-top: 10px;
 }
+
 .replaced-svg{
 	opacity: 1;
 }
+
 p{
 	letter-spacing: 0;
 	margin-bottom: 20px;
 }
+
 h1, h2, h3, h4, h5, h6{
 	color: var(--hc);
 	font-family: var(--hff);
@@ -1426,6 +1448,7 @@ a.full_link{
 }
 .neoh_fn_investor li{
 	width: 20%;
+	height:150px;
 	padding-left: 10px;
 	margin-bottom: 10px;
 }
@@ -1444,7 +1467,7 @@ a.full_link{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	min-height: 150px;
+	height: 150px;
 	padding: 20px;
 }
 .neoh_fn_investor .item img{
@@ -1452,6 +1475,8 @@ a.full_link{
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
 	opacity: .5;
+	height: 100px;
+	object-fit: contain;
 }
 .neoh_fn_investor .item:hover img{
 	opacity: 1;
@@ -5027,6 +5052,10 @@ background-image: url('../assest/svg/divider.svg');
 		transition: all .3s ease;
 		top: 7px;
 	}
+	.only_text{
+		font-size: 1.5rem;
+		padding:30px
+	}
 }
 @media(max-width: 480px){
 	.neoh_fn_investor li{width: 100%;}
@@ -5111,3 +5140,5 @@ background-image: url('../assest/svg/divider.svg');
 	height: 100%;
 	object-fit: cover;
   }
+
+ 

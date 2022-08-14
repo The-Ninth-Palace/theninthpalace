@@ -17,10 +17,10 @@ const MediumBlog = () => {
         .catch(err => console.log(err));
     }, []);
   
-    const finalData = mediumData.slice(0, 2);
+    const finalData = mediumData.slice(0, 1);
   
     return (
-      <div >
+      <div>
         {/* <p>Fetching data from Medium!</p> */}
         {isLoading && <Spinner />}
   

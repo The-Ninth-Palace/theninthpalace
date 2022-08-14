@@ -51,13 +51,25 @@ function HomeRoadmap() {
                         <span>August-September, 2022</span>
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Introduction. Explanation. Understanding.</Link></h3>
-                      <p class="fn_desc">
+                      {/* <p class="fn_desc">
                         Introducing the project to the world. Bringing the gaming & NFT communities together through Discord, Medium, and SubStack. 
                         Releasing the first clue in "The Resistance Riddle." The pre-production phase for the PC game will end and production will begin. 
                         The avatars will mint and the first "Safe House" will be opened for holders only. Mobile beta-testing list will open for enrollment. 
                         {/* Events 1 & 2. */}
-                        </p>
-                        <div>
+                        {/* </p> */}
+                        <ul>
+                        <li>
+                            Introduce The Ninth Palace via <span><a style={{color:'white'}} href='https://theninthpalace.medium.com/'>Medium</a></span>, <span><a style={{color:'white'}} href='https://twitter.com/theninthpalace'>Twitter</a></span>, <span><a style={{color:'white'}} href='https://discord.gg/XB2z53vAmE'>Discord</a></span>, and <span><a style={{color:'white'}} href='https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace/Welcome-5998cab8-2635-4d24-9a85-fcc42ce3f3b6'>Nuclino</a></span> documentation.
+                            </li>
+                            <li>
+                            Open the Allow List with our Resistance Riddle
+                            </li>
+                            {/* <li>Share the Virtual Waiting Room mint style with the community; Contract Audit.</li> */}
+                            <li>The Resistance Avatar mint</li>
+                            <li>Gamer Tag (SSO) registration begins.</li>
+                            <li>Pre-Production wraps and Production begins.</li>
+                        </ul>
+                      <div>
 							<Link 
 							style={{textDecoration:'none',color:'white'}}
 							to="/roadmap">
@@ -100,11 +112,26 @@ function HomeRoadmap() {
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Growth. Economics. Sustainability.</Link></h3>
                       <p class="fn_desc">
-                      The avatar viewer and dApp are released. Holders and players will have a chance to familiarize themselves with the environment; 
+                      {/* The avatar viewer and dApp are released. Holders and players will have a chance to familiarize themselves with the environment; 
                       we will take suggestions, and be able to test effectively before the in-game deployment of a crucial piece of the ecosystem. 
-                      Genesis holders will receive the "Auxiliary" airdrop. The Resistance Economy White Paper is introduced; voting ensues. 
+                      Genesis holders will receive the "Auxiliary" airdrop. The Resistance Economy White Paper is introduced; voting ensues.  */}
                       {/* Events 3 & 4. */}
-                        </p>
+                      <ul>
+                          <li>
+                          Release The Resistance Economy docs in full detail.
+                          {/* Update the Nuclino for The Resistance Economy in full-detail. */}
+                          {/* Share the White Paper for the Resistance economy. */}
+                          </li>
+                            <li>
+                            The Safe House marketplace beta testing begins.
+                            {/* dApp/Marketplace: Release “The Safe House” Beta version to Resistance members only */}
+                            {/* dApp/Marketplace: Release “The Safe House” Beta version to Resistance members only. */}
+                            </li>
+                            <li>The Auxiliary Airdrop</li>
+                            <li>Open beta testing list for mobile.</li>
+                            <li>Integrate Gamer Tag/ENS into dApp and backend.</li>
+                            </ul>  
+                      </p>
                         <Link to="/roadmap" class="neoh_fn_button only_text">
 												<span class="text">Read More</span>
 											</Link>
@@ -138,11 +165,18 @@ function HomeRoadmap() {
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Launch. Test. Upgrade.</Link></h3>
                       <p class="fn_desc">
-                      The Resistance Economy is launched. The $SIGNA token IDO; enables in-game & marketplace buying, selling, and trading of assets. 
+                      {/* The Resistance Economy is launched. The $SIGNA token IDO; enables in-game & marketplace buying, selling, and trading of assets. 
                       The mobile game-"The Ninth Palace: Hunted for Love"- a sub-set of the storyline for the PC game, is released. 
-                      The "ConnectOne" log-ins are introduced to coincide with the mobile game launch. The PC beta-testing list will open. 
+                      The "ConnectOne" log-ins are introduced to coincide with the mobile game launch. The PC beta-testing list will open.  */}
                       {/* Event 5 & 6. */}
-                        </p>
+                      <ul>
+                        <li>Release the Resistance Economy in two-stages; SIG/AET.</li>
+                        <li>The Safe House goes Live.</li>
+                        <li>Integrate Gamer Tag (SSO) into mobile game.</li>
+                        <li>Testing across the wider ecosystem: TSH, GT/ENS, and Mobile Game</li>
+                        <li>Launch the campaign-mode mobile game</li>
+                      </ul>
+                      </p>
                         <Link to="/roadmap" class="neoh_fn_button only_text">
 												<span class="text">Read More</span>
 											</Link>
@@ -176,9 +210,17 @@ function HomeRoadmap() {
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Level Up. Consolidate. Prepare.</Link></h3>
                       <p class="fn_desc">
-                      The team gears up for the PC game launch. There will be changes; security checks, and audits; testing will be done to ensure a smooth 
+                      {/* The team gears up for the PC game launch. There will be changes; security checks, and audits; testing will be done to ensure a smooth 
                       operating environment at scale; the "ConnectOne" system will undergo UI/UX/, A/B testing, and traffic testing. 
-                      There will be an exclusive merchandise drop w/ Collaborators of the Resistance, which is marked Top Secret.
+                      There will be an exclusive merchandise drop w/ Collaborators of the Resistance, which is marked Top Secret. */}
+                      <ul>
+                        <li>Beta Test PvP/Faction play on mobile.</li>
+                        <li>A/B & beta testing the asset creation UI/UX within The Safe House.</li>
+                        <li>Beta testing list for PC game opens.</li>
+                        <li>Ensure the “Faction” economic model addition is operational and sustainable.</li>
+                        <li>Testing the asset creation economic addition.</li>
+                        <li>Ensure cross-platform gameplay, data transfer, and wallet synchronicity is intact.</li>
+                      </ul>
                       </p>
                       <Link to="/roadmap" class="neoh_fn_button only_text">
 												<span class="text">Read More</span>
@@ -213,11 +255,19 @@ function HomeRoadmap() {
                       </p>
                       <h3 class="fn_title"><Link to="/roadmap">Launch. Secure. Market. Scale.</Link></h3>
                       <p class="fn_desc">
-                      The PC game launches. Integration with Flamestore. The $SIGNA token will become the official store of value within the ecosystem. 
+                      <ul>
+                        <li>Launch The Ninth Palace - Campaign play.</li>
+                        <li>Introduce “Waiting Room” design into TSH for pregame video interaction.</li>
+                        <li>Analysis; audits; employee retention/contracting. Sharpen the blade.</li>
+                        <li>Massive marketing and publicity campaign across the globe.</li>
+                        <li>Sponsorship applications to the gaming community open.</li>
+                        <li>Tournament Play begins; introduce the “MD 1%” economic model.</li>
+                      </ul>
+                      {/* The PC game launches. Integration with Flamestore. The $SIGNA token will become the official store of value within the ecosystem. 
                       We will introduce a marketplace that will provide a revolutionary new way for the community to monetize from contributing to the game. 
                       Community members will be able to submit assets to the Asset Approval Committee. Upon the committee’s approval, the assets’ creators will 
                       receive royalties from the sales of these assets.                      
-                      A massive marketing campaign begins. The "Web3 x Gaming Incubator" is introduced to the world.
+                      A massive marketing campaign begins. The "Web3 x Gaming Incubator" is introduced to the world. */}
                       </p>
                       <Link to="/roadmap" class="neoh_fn_button only_text">
 												<span class="text">Read More</span>

@@ -35,6 +35,7 @@ function About() {
           {/* <!-- Information Section --> */}
           <section id="information">
             <div class="container">
+            <About_Intro2 />
               {/* <!-- About Item #1 --> */}
               <About_Intro1 />
               {/* <!-- !About Item #1 --> */}
@@ -44,7 +45,7 @@ function About() {
               {/* <!-- !Guarantee List --> */}
 
               {/* <!-- About Item #2 --> */}
-              <About_Intro2 />
+              
               {/* <!-- !About Item #2 --> */}
             </div>
           </section>

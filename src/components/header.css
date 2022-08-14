@@ -41,6 +41,9 @@
     .neoh_fn_header .connect_wallet{
         display: none;
     }
+    .connect_meta_new{
+        display:none;
+    }
     .hamburger_new{
         display:block;    
     }

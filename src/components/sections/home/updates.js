@@ -19,7 +19,9 @@ function UpdateSection() {
 				<div class="neoh_fn_moving_blog">
 					<ul>
 						<li>
-							<div class="item">
+							<div class="item"
+							// style={{height:"200px"}}
+							>
 								{/* <img src="img/landing/twitter.png" alt="" class="moving_img"/> */}
 								<p class="fn_date">
 									<span>Twitter</span>
@@ -29,7 +31,9 @@ function UpdateSection() {
 										Follow us on Twitter...
 									</a>
 								</h3>
-								<p class="fn_desc">
+								<p class="fn_desc"
+								// style={{height:'500px'}}
+								>
 									{/* <a class="twitter-timeline"
 								href="https://twitter.com/theninthpalace/timelines/1532026081682890752">
 								the ninth palace Tweets
@@ -40,13 +44,13 @@ function UpdateSection() {
 								data-tweet-limit="3"> 
 								Tweets by @theninthpalace </a> */}
 
-								<a class="twitter-timeline" href="https://twitter.com/theninthpalace?ref_src=twsrc%5Etfw"
-								data-width="500" data-height="350" 
+								<a 
+								// style={{height:'200px'}}
+								class="twitter-timeline" href="https://twitter.com/theninthpalace?ref_src=twsrc%5Etfw"
+								data-width="500" 
 								data-chrome=" noborders" data-theme="dark"
-								data-tweet-limit="3">
-									Tweets by theninthpalace</a> 
-									
-										
+								data-tweet-limit="1">
+									Tweets by theninthpalace</a> 									
 								{/* <blockquote class="twitter-tweet" data-lang="en" data-theme="dark">
 								<p lang="en" dir="ltr">We just published the first chapter in the storyline for The Ninth Palace. Be sure to follow. The Resistance Riddle&#39;s first clue will be drawn from the story. 
 								<a href="https://t.co/7M0LraVSeT">https://t.co/7M0LraVSeT</a><a href="https://twitter.com/hashtag/nftart?src=hash&amp;ref_src=twsrc%5Etfw">#nftart</a> 

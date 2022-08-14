@@ -15,3 +15,10 @@
 .nav_menu .connect_wallet:hover{
 	border: 2px solid var(--mc);
 }
+
+.connect_meta_mask_new{
+	width:100%;
+	/* font-size: 1.1rem; */
+	margin-top: 20px;
+	/* border: 2px solid */
+}

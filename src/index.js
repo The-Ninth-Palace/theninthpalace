@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from "react-dom/client";
 import './style/style.css?ver=1.1';
 import './style/plugins.css';
+// import { ThirdwebProvider, ChainId } from "@thirdweb-dev/react";
 // import '../public/style/style.css?ver=1.1';
 // import '../public/style/plugins.css';
 import {BrowserRouter as Router, Routes, Route, HashRouter } from 'react-router-dom';

@@ -6,29 +6,34 @@ function AboutIntro2() {
     <>
     <div class="neoh_fn_about_item reverse">
                 <div class="img_item">
-                  <img src={CampaignVMultiplayer} alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
+                  <img src='/imageiOS.png' alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
                   {/* <img src="img/landing/about-CampaignVMultiplayer.jpg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " /> */}
                 </div>
                 <div class="content_item">
                   <div class="neoh_fn_title" data-align="left">
-                    <h3 class="fn_title">Campaign v Multiplayer</h3>
+                    <h3 class="fn_title">What Is The Resistance?</h3>
                     <div class="line"><span></span></div>
                   </div>
 
                   <div class="desc">
                     <p>
-                    Holding an Inception Collection NFT will allow you access to the very first versions of the games. 
+                    The citizens and soldiers that have formed a worldwide coalition to combat the Modgnik Government. It began peacefully through protests, demonstrations, and strikes. It’s grown into fully-fledged military action against Modgnik infrastructure and government. Tens of thousands of people have died on both sides, with The Resistance usually sustaining the most casualties.
+                    {/* Holding an Inception Collection NFT will allow you access to the very first versions of the games. 
                     We've created a storyline for the campaign; decision-based gaming will allow each and every player to 
                     experience slightly different outcomes based on their choices. Alternate metadata subscriptions in the 
                     future will allow for narrative expansion and interesting in-game "games" for players to explore or even 
-                    monetize. 
+                    monetize.  */}
                     </p>
                     <p>
-                    The Multiplayer version of the game is essentially a place for members of The Resistance to organize into clans or 
+                    The Resistance has several key members but no official voting system in place. Their unelected leader is known as “One” and he’s the male protagonist of our storyline. The female protagonist is known as “Five” and she’s a revered figure amongst The Resistance, especially throughout the East.
+                    {/* The Multiplayer version of the game is essentially a place for members of The Resistance to organize into clans or 
                     teams and fight the Modgnik Security Services together. Missions will differ from the Campaign version, and there 
                     will be interesting formats updated regularly. Being a Web3 game allows us to truly take feedback from the community 
                     in a way most AAA-Tier games can not. Owning an Inception Collection NFT will also be your "token" of ownership for the 
-                    multiplayer servers. In a perfect world, they're completely decentralized and run by the community. 
+                    multiplayer servers. In a perfect world, they're completely decentralized and run by the community.  */}
+                    </p>
+                    <p>
+                    The Ninth Palace moniker is sometimes used to mention The Resistance in honor of the group of survivors from that research facility.
                     </p>
                     {/* <p>
                     The Avatar mint will determine what base character traits players have going forward. 

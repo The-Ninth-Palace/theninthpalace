@@ -1,10 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 import SocialListFooter from "./sociallistfooter";
 import './header.css'
 import './navbar.css'
+import ConnectMetaMask from "./connectmeta";
+
 
 function Navbar() {
+	const[currentAccount, setCurrentAccount]=useState()
+
+	const connectWallet=async()=>{
+		try {
+			if(!window.ethereum)return alert('You dont have metamask installed')
+
+		const accounts=await window.ethereum.request({method:'eth_requestAccounts'})
+		setCurrentAccount(accounts[0]);
+	
+		} catch (error) {
+			console.log(error)
+
+			throw new Error('no object found')
+		}
+		
+	}
  return (
     <>
     {/* <!-- Right Navigation --> */}
@@ -30,11 +48,16 @@ function Navbar() {
 					{/* <li class="menu-item"><Link to="/#">Mint</Link></li> */}
 					<li class="menu-item"
 					style={{cursor:'pointer',display:'inline-block'}}
-					><a href="https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace">Nuclino</a></li>
+					><a href="https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace/Welcome-5998cab8-2635-4d24-9a85-fcc42ce3f3b6">Nuclino</a></li>
 				</ul>
-				<div className='connect_wallet'>
+				<div className='connect_wallet'
+				onClick={connectWallet}
+				>
 					CONNECT WALLET
 				</div>
+				{/* <div className='connect_meta_mask_new'>
+				<ConnectMetaMask/>	
+				</div> */}
 			</div>
 			<div class="nav_buttons">
 				{/* <a href="https://opensea.io/" class="neoh_fn_button only_button" target="_blank">

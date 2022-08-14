@@ -31,20 +31,18 @@ function NormalContent() {
               </div> */}
               <div class="single_title">
                 <h2 class="fn_title">
-                    Growth. Economics. Sustainability.
+                Organize. Design. Develop. Test. Release.
                 </h2>
-                <div class="categories">
+                {/* <div class="categories">
                   <p>Game, NFTs, Tokens</p>
-                </div>
+                </div> */}
               </div>
               {/* <!-- !Single Title --> */}
 
               {/* <!-- Single Description --> */}
               <div class="single_desc">
                 <p class="fn_desc">
-                Please understand that the following is subject to change. This document is meant to lead The Resistance, but it is not a definitive 
-                list of what we must do to flourish. The timing and order of these items can change as we scale. Development in our industry is fluid 
-                and game design documents, roadmaps, or business plans are used more as guides than strict sets of rules.
+                Please understand that the following is subject to change. This document is meant to lead The Resistance, but it is not a definitive list of what we must do to flourish. The timing and order of these items can change as we scale. Development in our industry is fluid and game design documents, roadmaps, or business plans are used more as guides than strict sets of rules.
                 </p>
                 <p class="fn_desc">
                 Any delays in the development, design, or implementation of the following will be communicated to the community as early as possible.
@@ -55,19 +53,16 @@ function NormalContent() {
                 <p class="fn_desc">
                     <ul>
                         <li>
-                          Build a AAA-quality P2E game that is fun. Our primary goal is to ensure that our community enjoys game play and becomes 
-                          invested in the storyline.
+                        Build a AAA-quality P2E game that is fun. Our primary goal is to ensure that our community enjoys game play and becomes invested in the storyline.
                         </li>
                         <li>
-                          Create a game economy that is sustainable over time and ensure that ownership of assets lies with the community, 
-                          not the publisher or the development team.
+                        Create a game economy that is sustainable over time and ensure that ownership of assets lies with the community, not the publisher or the development team.
                         </li>
                         <li>
-                          Onboard traditional gamers into Web3 gaming ecosystems and change the way gamers earn through eSports.
+                        Onboard traditional gamers into Web3 gaming ecosystems and change the way gamers earn through eSports.
                         </li>
                     </ul>
-                    Finally, great game design and/or development takes time. However, this doesn’t mean wasteful spending or endless delays with no apparent reason. 
-                    Technical updates will be shared regularly via SubStack; creative updates will be shared via Medium and/or our social media accounts. 
+                    Finally, great game design and/or development takes time. However, this doesn’t mean wasteful spending or endless delays with no apparent reason. Technical updates will be shared regularly via Nuclino; creative updates will be shared via Medium and/or our social media accounts.
                 </p>
               </div>
               {/* <!-- !Single Description --> */}

@@ -20,7 +20,7 @@ function HomeAbout() {
 					<div class="content_item">
 						
 						<div class="neoh_fn_title" data-align="left">
-							<h3 class="fn_title">What is the Resistance Collection?</h3>
+							<h3 class="fn_title">The Resistance Collection</h3>
 							<div class="line"><span></span></div>
 						</div>
 						
@@ -28,30 +28,32 @@ function HomeAbout() {
 							{/* <PlaySound/> */}
 							{/* <AudioPlayer /> */}
 							<p>
-								The Resistance Collection is the first collection for The Ninth Palace. The Resistance is, at present, a loose collective of 10,007 rogue soldiers 
-								and civilians committed to taking down the Modgnik Detinu government.  
+							The Resistance Collection is the first and only avatar collection from The Ninth Palace. The Resistance is a collective of 10,007 rogue soldiers and civilians committed to taking down the Modgnik Detinu government.
+							</p>
+							<ul>
+								<li>Date/Time: 8/29; 7:53 EST</li>
+								<li>Price: 0.17 Ether</li>
+								<li>Maximum per Wallet: 7</li>
+								<li>Total Supply: 10,007; 21 Avatars will be withheld from public mint for the Core Team.</li>
+								{/* Your Resistance NFT will double as your avatar for “The Ninth Palace” PC game and “The Ninth Palace: Hunted for Love” mobile game.  */}
+							</ul>
+							<p>
+							The smart contract created for the mint is novel. It’s one of the most efficient mint contracts ever written. The gas fee/s for minting will be incredibly low regardless of the number of avatars minted. 
 							</p>
 							<p>
-								Your Resistance NFT will double as your avatar for “The Ninth Palace” PC game and “The Ninth Palace: Hunted for Love” mobile game. 
-							</p>
-							<p>
-								The Safe House is only available to members of The Resistance; your bonafides will be checked at the door. Members will own their assets. 
-								More details on the marketplace will be released soon. 
-							</p>
-							<p>
-								Being a member of The Resistance will grant you access to all events where The Ninth Palace has a presence; there are five scheduled across the world in 2022.
+							The Safe House will only be available to members of The Resistance; your bonafides will be checked at the door. Holders will own all IP rights to all of their assets.
 							</p>
 						</div>
 
 						<div className='about_home_new'>
-							<Link 
+							<a href='https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace/Avatar-d3a122c8-db4b-401d-a358-1809e01859aa'
 							style={{textDecoration:'none',color:'white'}}
-							to="/about">
+							>
 								<span className='btn_new'>Read More</span>
 								{/* <span class="button">
 									<svg class="fn__svg" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 122.88 29.96"><title>3-horizontal-dots</title><path class="cls-1" d="M0,15A15,15,0,1,1,15,30,15,15,0,0,1,0,15Zm92.93,0a15,15,0,1,1,15,15,15,15,0,0,1-15-15ZM46.46,15a15,15,0,1,1,15,15,15,15,0,0,1-15-15Z"/></svg>
 								</span> */}
-							</Link>
+							</a>
 						</div>
 						
 					</div>
@@ -72,19 +74,22 @@ function HomeAbout() {
 						
 						<div class="desc">
 						<p>
-						The Avatar mint will determine what base traits players will have going forward. Collectors will have the chance to move up or 
-						down on the secondary market before the game/s are released, before the Auxiliary Airdrop, or before the game mechanics for 
-						specific NFT metadata are shared.
+						The Resistance Avatars are the 2D representations of the in-game avatars for The Ninth Palace game/s. It will determine the game mechanics a user experiences during gameplay based on the traits within the metadata.
 						</p>
 						<p>
-						The illustrations for the collection are hand-drawn, unique, and game-specific. There are 8 versions of Avatar; 200 trait variations 
-						for men and 197 trait variations for women. Asian Avatars, both men and women, have one extra variation on the same trait. There are 
-						10 Avatars that are 1-of-1s; another 10 will be reserved for giveaways, scholarships, and marketing.
+						Collectors will have the chance to move up or down on the secondary market before the game/s are released, before the Auxiliary Airdrop, and/or before the game mechanics for specific metadata are shared.
 						</p>
-						<p>
-						The hidden meaning is built into every aspect of the project. Unwinding it will take some time and it’s important to stop, look, and 
-						factor in every detail.
-						</p>
+						<ul>
+							<li>The Auxiliary Airdrop is connected to avatar metadata and will NOT include another round of avatars.</li>
+							<li>There are eight base versions of Avatar. Each NFT will be programmatically generated from roughly 217 unique traits. However, the avatar generation is a bit more complex than that. Below is the simple trait breakdown to help the community better grasp the nuance surrounding generation.</li>
+							<ul>
+								<li>Total Traits = 217</li>
+								<li>Male ONLY Traits = 32</li>
+								<li>Female ONLY Traits = 27</li>
+							</ul>
+						{/* The hidden meaning is built into every aspect of the project. Unwinding it will take some time and it’s important to stop, look, and 
+						factor in every detail. */}
+						</ul>
 						</div>
 						
 						{/* <div class="buttons">

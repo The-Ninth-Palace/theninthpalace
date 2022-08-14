@@ -55,7 +55,7 @@ function Footer() {
 				<div class="container">
 					<div class="fb_in">
 					<SocialListFooter />
-					<p>© 2022 CC0. All rights reserved.</p>
+					{/* <p>© 2022 CC0. All rights reserved.</p> */}
 						{/* <div class="fb_left">
 							<ul>
 								<li>

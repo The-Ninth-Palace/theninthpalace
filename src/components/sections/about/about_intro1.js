@@ -50,25 +50,28 @@ function AboutIntro1() {
 
         </div>
       </div>
-      <div class="neoh_fn_about_item reverse">
+      {/* <div class="neoh_fn_about_item reverse">
                 <div class="img_item">
-                  <img src={TheFive} alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
+                  <img src='/newfive.png' alt="The Ninth Palace NFT Icon" title="The Ninth Palace " />
                   {/* <img src="img/landing/about-TheFive.jpg" alt="The Ninth Palace NFT Icon" title="The Ninth Palace " /> */}
-                </div>
-                <div class="content_item">
-                  <div class="neoh_fn_title" data-align="left">
-                    <h3 class="fn_title">Who is Five ?</h3>
-                    <div class="line"><span></span></div>
-                  </div>
+                {/* </div> */}
+                {/* <div class="content_item"> */}
+                  {/* <div class="neoh_fn_title" data-align="left"> */}
+                    {/* <h3 class="fn_title">Who is Five ?</h3> */}
+                    {/* <div class="line"><span></span></div> */}
+                  {/* </div> */}
 
-                  <div class="desc">
-                    <p>
-                    Five was the fifth survivor to make it out of The Ninth Palace. She'd not been seen since and was presumed dead 
-                    until the bombings at the Zone Three Chute Station. The bombings brought her back from the dead. The Resistance 
-                    needs her more than she needs The Resistance. 
-                    </p>
-                    
-                  </div>
+                  {/* <div class="desc"> */}
+                    {/* <p> */}
+                    {/* Five was the fifth survivor to make it out of The Ninth Palace. She'd not been seen since and was presumed dead  */}
+                    {/* until the bombings at the Zone Three Chute Station. The bombings brought her back from the dead. The Resistance  */}
+                    {/* needs her more than she needs The Resistance.  */}
+                    {/* </p> */}
+                    {/* <p> */}
+                    {/* She’s revered in the Eastern half of the Modgnik Detinu for illegally sharing classified MD documents showing the actual intent of the “Palace” research facilities across the globe. She has been hunted ever since. */}
+{/* The Resistance needs her more than she needs The Resistance but the sense of duty she feels towards humanity will keep her in play. */}
+                    {/* </p> */}
+                  {/* </div> */}
 
                   {/* <div class="buttons">
                     <a href="https://discord.gg/XB2z53vAmE" target="_blank" class="neoh_fn_button">
@@ -84,8 +87,8 @@ function AboutIntro1() {
                       <span class="text">Medium</span>
                     </a>
                   </div> */}
-                </div>
-    </div>
+                {/* </div> */}
+    {/* </div> */}
     </>
   );
 }

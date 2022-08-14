@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ConnectMetaMask from "./connectmeta";
 import { Link } from "react-router-dom";
 import './header.css'
@@ -6,6 +6,23 @@ import './header.css'
 
 
 function Header() {
+
+	const[currentAccount, setCurrentAccount]=useState()
+
+	const connectWallet=async()=>{
+		try {
+			if(!window.ethereum)return alert('You dont have metamask installed')
+
+		const accounts=await window.ethereum.request({method:'eth_requestAccounts'})
+		setCurrentAccount(accounts[0]);
+	
+		} catch (error) {
+			console.log(error)
+
+			throw new Error('no object found')
+		}
+		
+	}
     return (
        <>
 {/* <!-- Header --> */}
@@ -16,7 +33,7 @@ function Header() {
 				<div class="logo">
 					<a href="./"><img src="img/logo.png" alt="The Ninth Palace NFT Icon" title="The Ninth Palace "/></a>
 				</div>
-				{/* <ConnectMetaMask /> */}
+				
 				<div className='navbar_links_desktop'>
 				<ul className="navbar_links_desktop_list">
 				<Link 
@@ -30,9 +47,9 @@ function Header() {
 				to="/roadmap"><li>Securus Protocol</li></Link>
 					{/* <li class="menu-item"><Link to="/#">Mint</Link></li> */}
 				<div className='underlineForNav'>
-				<Link 
+				<a 
 				style={{textDecoration:'none',color:'white'}}
-				to="/teams"><li>Nuclino</li></Link>
+				href="https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace/Welcome-5998cab8-2635-4d24-9a85-fcc42ce3f3b6"><li>Nuclino</li></a>
 				</div>
 				</ul>
 				</div>
@@ -51,9 +68,16 @@ function Header() {
 						</span> 
 					</div>
 				</div>
-				<div className='connect_wallet'>
+				
+				<div className='connect_wallet'
+				onClick={connectWallet}
+				>
 					CONNECT WALLET
 				</div> 
+				{/* <div className="connect_meta_new">
+				<ConnectMetaMask />
+				</div> */}
+				
 			</div>
 			
 		</div>
