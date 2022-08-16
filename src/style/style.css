@@ -4172,10 +4172,10 @@ background-image: url('../assest/svg/divider.svg');
 	padding-top: 100px;
 	padding-bottom: 100px;
 }
-/* Comments */
-/* .neoh_fn_comments{
+
+ .neoh_fn_comments{
 	
-} */
+}
 .neoh_fn_comments .comment-title{
 	margin-bottom: 55px;
 }
