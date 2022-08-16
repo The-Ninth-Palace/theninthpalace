@@ -35,6 +35,7 @@ function SocialListFooter() {
 				<li><a href="https://app.nuclino.com/The-Ninth-Palace/The-Ninth-Palace/Welcome-5998cab8-2635-4d24-9a85-fcc42ce3f3b6">
 					{/* <svg class="nav_right_fn__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2859 3333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd"><title>TikTok</title><path d="M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1h551z"/></svg> */}
 				<img 
+				alt='nuclino'
 				style={{width:'15px',height:'15px'}}
 				src='/nuclino.png'/>
 				</a></li>

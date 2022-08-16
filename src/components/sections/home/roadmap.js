@@ -282,7 +282,8 @@ function HomeRoadmap() {
             {/* <!-- Timeline Progress --> */}
             <div class="timeline_progress">
               {/* <!-- Nav --> */}
-              <a href="#" class="nav_prev">
+              <a href="#" 
+              class="nav_prev">
                 <img src={RightArrow} alt="" class="fn__svg" />
               </a>
               <a href="#" class="nav_next">

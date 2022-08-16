@@ -1,9 +1,9 @@
 import React from "react";
 import HeroSection from "../roadmap/hero";
-import SocialList from "../../sociallist";
+// import SocialList from "../../sociallist";
 import BottomDivider from "../../bottomdivider";
 import RoadmapPage from "./roadmapcontent1";
-import TopDivider from "../../topdivider";
+// import TopDivider from "../../topdivider";
 
 function NormalContent() {
   return (

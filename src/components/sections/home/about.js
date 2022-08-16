@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 // import PlaySound from "../../sound";
 import InceptionCollection from "../../../assest/landing/InceptionCollection.webp";
 import WhatareAvatar from "../../../assest/landing/whatareAvatar.webp";

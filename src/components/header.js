@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ConnectMetaMask from "./connectmeta";
+// import ConnectMetaMask from "./connectmeta";
 import { Link } from "react-router-dom";
 import './header.css'
 

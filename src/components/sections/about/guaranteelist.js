@@ -42,8 +42,8 @@ function GuaranteeList() {
                       <p class="fn_desc">
                       We are releasing the project on the Ethereum Blockchain. We genuinely feel that the strength of the Ethereum network is unmatched and that The Merge will address several key issues slowing us down.
                       <br/> <br/>
-The technology developed for this project specifically is not at all proprietary. However, we’ve utilized most of it in ways never before seen in our community. The mint contract is a novel contract meant reduce gas fees across multiple mints and may be the most efficient contract ever written.
-<br/> <br/>
+                      The technology developed for this project specifically is not at all proprietary. However, we’ve utilized most of it in ways never before seen in our community. The mint contract is a novel contract meant reduce gas fees across multiple mints and may be the most efficient contract ever written.
+                      <br/> <br/>
 Our backend design, the Gamer Tag system, is all built using technology widely available. We’ve simply configured it to work in a way that makes it easier for non-native crypto users to adopt. We utilize our own version of SSO and ENS logins.
                       {/* We are releasing the project on the Ethereum Blockchain. It was not an easy decision. 
                       Polygon and ImmutableX both looked like viable options. We genuinely feel that the strength of the Ethereum chain is unmatched, 
