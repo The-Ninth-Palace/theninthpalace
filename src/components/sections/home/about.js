@@ -31,7 +31,7 @@ function HomeAbout() {
 							The Resistance Collection is the first and only avatar collection from The Ninth Palace. The Resistance is a collective of 10,007 rogue soldiers and civilians committed to taking down the Modgnik Detinu government.
 							</p>
 							<ul>
-								<li>Date/Time: 8/29; 7:53 EST</li>
+								<li>Date/Time: TBD</li>
 								<li>Price: 0.17 Ether</li>
 								<li>Maximum per Wallet: 7</li>
 								<li>Total Supply: 10,007; 21 Avatars will be withheld from public mint for the Core Team.</li>
